@@ -1,13 +1,14 @@
 {
   "as_of": "2026-10-06",
-  "generated_at": "2026-10-06 17:01 IST",
-  "session": "morning",
-  "session_label": "Morning run 17:00 IST — setups from the 2026-10-06 close, with live status today",
+  "generated_at": "2026-10-06 21:02 IST",
+  "session": "afternoon",
+  "session_label": "Afternoon run 21:01 IST — PROVISIONAL: today's candle is not final until 15:30",
   "capital": 500000.0,
   "universe_size": 495,
   "universe_name": "Nifty 500",
   "data_sources": [
     "Yahoo Finance (adjusted daily OHLCV, fundamentals, calendar)",
+    "prefetched history + live refresh of 486 liquid stocks at 21:02:19 IST",
     "NSE bhavcopy 2026-10-06 (close cross-check)",
     "8 clearly illiquid stocks skipped before indicators",
     "pandas-ta-classic indicator confluence"
@@ -356,7 +357,7 @@
         "eps_growth_pct": null,
         "profit_margin_pct": 6.52,
         "pe": 45.088417,
-        "market_cap_cr": 11752.1104896,
+        "market_cap_cr": 12010.6074112,
         "trailing_eps": 27.71,
         "loss_making": false
       },
@@ -421,9 +422,9 @@
         "revenue_growth_pct": -53.2,
         "eps_growth_pct": 35.099999999999994,
         "profit_margin_pct": 11.3199994,
-        "pe": 10.77118,
+        "pe": 10.602281,
         "market_cap_cr": 44625.002496,
-        "trailing_eps": 27.62,
+        "trailing_eps": 28.06,
         "loss_making": false
       },
       "events": {
@@ -768,7 +769,7 @@
         "eps_growth_pct": 44.3,
         "profit_margin_pct": 14.212,
         "pe": 73.21429,
-        "market_cap_cr": 51178.5336832,
+        "market_cap_cr": 51181.9644928,
         "trailing_eps": 11.2,
         "loss_making": false
       },
@@ -1315,7 +1316,7 @@
         "eps_growth_pct": 79.9,
         "profit_margin_pct": 7.249,
         "pe": 166.40471,
-        "market_cap_cr": 108315.6529152,
+        "market_cap_cr": 108400.3319808,
         "trailing_eps": 10.18,
         "loss_making": false
       },
