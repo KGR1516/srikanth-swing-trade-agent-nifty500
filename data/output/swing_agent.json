@@ -1,13 +1,14 @@
 {
   "as_of": "2026-10-07",
-  "generated_at": "2026-10-07 16:51 IST",
-  "session": "morning",
-  "session_label": "Morning run 16:50 IST — setups from the 2026-10-07 close, with live status today",
+  "generated_at": "2026-10-07 21:22 IST",
+  "session": "afternoon",
+  "session_label": "Afternoon run 21:20 IST — PROVISIONAL: today's candle is not final until 15:30",
   "capital": 500000.0,
   "universe_size": 495,
   "universe_name": "Nifty 500",
   "data_sources": [
     "Yahoo Finance (adjusted daily OHLCV, fundamentals, calendar)",
+    "prefetched history + live refresh of 486 liquid stocks at 21:22:01 IST",
     "NSE bhavcopy 2026-10-07 (close cross-check)",
     "8 clearly illiquid stocks skipped before indicators",
     "pandas-ta-classic indicator confluence"
@@ -570,9 +571,9 @@
         "revenue_growth_pct": 11.700000000000001,
         "eps_growth_pct": 20.8,
         "profit_margin_pct": 16.075,
-        "pe": 95.115715,
+        "pe": 92.25044,
         "market_cap_cr": 33175.4766336,
-        "trailing_eps": 16.42,
+        "trailing_eps": 16.93,
         "loss_making": false
       },
       "events": {
@@ -588,7 +589,7 @@
         "rs_excess_20d_pct": 3.82
       },
       "risks": [
-        "Rich valuation: P/E 95 > 60 — less margin for error on bad news."
+        "Rich valuation: P/E 92 > 60 — less margin for error on bad news."
       ],
       "rejected_reason": "risk: market regime: no new longs"
     },
@@ -838,9 +839,9 @@
         "revenue_growth_pct": -53.2,
         "eps_growth_pct": 35.099999999999994,
         "profit_margin_pct": 11.3199994,
-        "pe": 10.859232,
+        "pe": 10.584462,
         "market_cap_cr": 44550.0030976,
-        "trailing_eps": 27.35,
+        "trailing_eps": 28.06,
         "loss_making": false
       },
       "events": {
@@ -1600,9 +1601,9 @@
         "revenue_growth_pct": 85.8,
         "eps_growth_pct": 79.4,
         "profit_margin_pct": 34.958,
-        "pe": 21.449102,
+        "pe": 21.467466,
         "market_cap_cr": 24125.0500608,
-        "trailing_eps": 11.69,
+        "trailing_eps": 11.68,
         "loss_making": false
       },
       "events": {
