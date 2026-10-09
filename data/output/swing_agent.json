@@ -1,13 +1,14 @@
 {
   "as_of": "2026-10-09",
-  "generated_at": "2026-10-09 17:02 IST",
-  "session": "morning",
-  "session_label": "Morning run 17:01 IST — setups from the 2026-10-09 close, with live status today",
+  "generated_at": "2026-10-09 21:08 IST",
+  "session": "afternoon",
+  "session_label": "Afternoon run 21:07 IST — PROVISIONAL: today's candle is not final until 15:30",
   "capital": 500000.0,
   "universe_size": 495,
   "universe_name": "Nifty 500",
   "data_sources": [
     "Yahoo Finance (adjusted daily OHLCV, fundamentals, calendar)",
+    "prefetched history + live refresh of 485 liquid stocks at 21:08:34 IST",
     "NSE bhavcopy 2026-10-09 (close cross-check)",
     "9 clearly illiquid stocks skipped before indicators",
     "pandas-ta-classic indicator confluence"
@@ -168,6 +169,74 @@
         "rs_excess_20d_pct": 5.13
       },
       "risks": [],
+      "rejected_reason": "risk: market regime: no new longs"
+    },
+    {
+      "symbol": "AEGISLOG",
+      "sector": "Oil Gas & Consumable Fuels",
+      "as_of": "2026-10-09",
+      "close": 1388.9,
+      "setup_type": "Pullback",
+      "technical_score": 100.0,
+      "rs_percentile": 90.2,
+      "rs_excess_pct": 18.43,
+      "sector_score": 80.0,
+      "fundamental_score": 100.0,
+      "event_score": 100.0,
+      "confluence_score": 72.0,
+      "penalty": 0.0,
+      "final_score": 92.4,
+      "action": "WATCH",
+      "breakout_grade": "",
+      "live_status": "",
+      "follow_through": "Strong",
+      "loss_making": false,
+      "failed_breakout": false,
+      "confluence": {
+        "confluence_score": 72.0,
+        "conf_trend": 38.5,
+        "conf_momentum": 81.8,
+        "conf_overlap": 62.1,
+        "conf_volume": 77.8,
+        "indicators_computed": 372
+      },
+      "score_breakdown": {
+        "technical_pts": 34.0,
+        "relative_strength_pts": 15.3,
+        "fundamental_pts": 17.0,
+        "sector_pts": 6.8,
+        "event_pts": 8.5,
+        "confluence_pts": 10.8,
+        "weighted": 92.4,
+        "penalty": 0.0,
+        "final": 92.4
+      },
+      "fundamentals": {
+        "roe_pct": null,
+        "debt_to_equity": 0.47243,
+        "revenue_growth_pct": 37.1,
+        "eps_growth_pct": 269.0,
+        "profit_margin_pct": 13.949000999999999,
+        "pe": 38.959328,
+        "market_cap_cr": 48750.3921152,
+        "trailing_eps": 35.65,
+        "loss_making": false
+      },
+      "events": {
+        "next_earnings": null,
+        "ex_dividend": "2026-07-10"
+      },
+      "metrics": {
+        "dist_from_ema20_pct": 1.26,
+        "rsi": 52.6,
+        "adx": 22.0,
+        "pct_of_52w_high": 90.9,
+        "rs_line_new_high": false,
+        "rs_excess_20d_pct": 7.28
+      },
+      "risks": [
+        "High volatility (ATR 5.1% of price)."
+      ],
       "rejected_reason": "risk: market regime: no new longs"
     },
     {
@@ -559,9 +628,9 @@
         "revenue_growth_pct": 16.3,
         "eps_growth_pct": 22.400000000000002,
         "profit_margin_pct": 28.656,
-        "pe": 62.113243,
+        "pe": 63.791615,
         "market_cap_cr": 14346.2514688,
-        "trailing_eps": 47.51,
+        "trailing_eps": 46.26,
         "loss_making": false
       },
       "events": {
@@ -578,7 +647,7 @@
       },
       "risks": [
         "High volatility (ATR 4.1% of price).",
-        "Rich valuation: P/E 62 > 60 — less margin for error on bad news."
+        "Rich valuation: P/E 64 > 60 — less margin for error on bad news."
       ],
       "rejected_reason": "risk: market regime: no new longs"
     },
@@ -781,74 +850,6 @@
       },
       "risks": [
         "Rich valuation: P/E 183 > 60 — less margin for error on bad news."
-      ],
-      "rejected_reason": "risk: market regime: no new longs"
-    },
-    {
-      "symbol": "AEGISLOG",
-      "sector": "Oil Gas & Consumable Fuels",
-      "as_of": "2026-10-09",
-      "close": 1388.9,
-      "setup_type": "Pullback",
-      "technical_score": 100.0,
-      "rs_percentile": 90.2,
-      "rs_excess_pct": 18.43,
-      "sector_score": 80.0,
-      "fundamental_score": 50.0,
-      "event_score": 100.0,
-      "confluence_score": 72.0,
-      "penalty": 0.0,
-      "final_score": 83.9,
-      "action": "WATCH",
-      "breakout_grade": "",
-      "live_status": "",
-      "follow_through": "Strong",
-      "loss_making": false,
-      "failed_breakout": false,
-      "confluence": {
-        "confluence_score": 72.0,
-        "conf_trend": 38.5,
-        "conf_momentum": 81.8,
-        "conf_overlap": 62.1,
-        "conf_volume": 77.8,
-        "indicators_computed": 372
-      },
-      "score_breakdown": {
-        "technical_pts": 34.0,
-        "relative_strength_pts": 15.3,
-        "fundamental_pts": 8.5,
-        "sector_pts": 6.8,
-        "event_pts": 8.5,
-        "confluence_pts": 10.8,
-        "weighted": 83.9,
-        "penalty": 0.0,
-        "final": 83.9
-      },
-      "fundamentals": {
-        "roe_pct": null,
-        "debt_to_equity": null,
-        "revenue_growth_pct": null,
-        "eps_growth_pct": null,
-        "profit_margin_pct": null,
-        "pe": 38.959328,
-        "market_cap_cr": 48750.3921152,
-        "trailing_eps": null,
-        "loss_making": false
-      },
-      "events": {
-        "next_earnings": null,
-        "ex_dividend": "2026-07-10"
-      },
-      "metrics": {
-        "dist_from_ema20_pct": 1.26,
-        "rsi": 52.6,
-        "adx": 22.0,
-        "pct_of_52w_high": 90.9,
-        "rs_line_new_high": false,
-        "rs_excess_20d_pct": 7.28
-      },
-      "risks": [
-        "High volatility (ATR 5.1% of price)."
       ],
       "rejected_reason": "risk: market regime: no new longs"
     },
@@ -1105,7 +1106,7 @@
         "eps_growth_pct": 27.800000000000004,
         "profit_margin_pct": 18.745,
         "pe": 59.67901,
-        "market_cap_cr": 32286.8215808,
+        "market_cap_cr": 32331.8644736,
         "trailing_eps": 32.4,
         "loss_making": false
       },
@@ -1979,11 +1980,11 @@
       "status": "risk: market regime: no new longs",
       "rs_percentile": 90.2,
       "sector_score": 80.0,
-      "fundamental_score": 50.0,
+      "fundamental_score": 100.0,
       "event_score": 100.0,
       "confluence_score": 72.0,
       "penalty": 0.0,
-      "final_score": 83.9,
+      "final_score": 92.4,
       "action": "WATCH"
     },
     {
@@ -2225,11 +2226,11 @@
       "status": "earnings blackout: results on 2026-10-14",
       "rs_percentile": 86.5,
       "sector_score": 65.0,
-      "fundamental_score": 50.0,
+      "fundamental_score": 100.0,
       "event_score": 0.0,
       "confluence_score": 73.0,
       "penalty": -15.0,
-      "final_score": 57.2,
+      "final_score": 65.7,
       "action": "WATCH"
     },
     {
