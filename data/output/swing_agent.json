@@ -1,13 +1,14 @@
 {
   "as_of": "2026-10-12",
-  "generated_at": "2026-10-12 17:56 IST",
-  "session": "morning",
-  "session_label": "Morning run 17:55 IST — setups from the 2026-10-12 close, with live status today",
+  "generated_at": "2026-10-12 23:47 IST",
+  "session": "afternoon",
+  "session_label": "Afternoon run 23:46 IST — PROVISIONAL: today's candle is not final until 15:30",
   "capital": 500000.0,
   "universe_size": 495,
   "universe_name": "Nifty 500",
   "data_sources": [
     "Yahoo Finance (adjusted daily OHLCV, fundamentals, calendar)",
+    "prefetched history + live refresh of 486 liquid stocks at 23:47:38 IST",
     "NSE bhavcopy 2026-10-12 (close cross-check)",
     "8 clearly illiquid stocks skipped before indicators",
     "pandas-ta-classic indicator confluence"
@@ -581,6 +582,72 @@
         "Results due 2026-10-15 (3d) — gap risk through the stop."
       ],
       "rejected_reason": "earnings blackout: results on 2026-10-15"
+    },
+    {
+      "symbol": "KAJARIACER",
+      "sector": "Consumer Durables",
+      "as_of": "2026-10-12",
+      "close": 1224.7,
+      "setup_type": "Pullback",
+      "technical_score": 95.7,
+      "rs_percentile": 73.0,
+      "rs_excess_pct": 7.18,
+      "sector_score": 45.0,
+      "fundamental_score": 100.0,
+      "event_score": 100.0,
+      "confluence_score": 74.1,
+      "penalty": 0.0,
+      "final_score": 85.4,
+      "action": "WATCH",
+      "breakout_grade": "",
+      "live_status": "",
+      "follow_through": "Partial",
+      "loss_making": false,
+      "failed_breakout": false,
+      "confluence": {
+        "confluence_score": 74.1,
+        "conf_trend": 84.6,
+        "conf_momentum": 69.1,
+        "conf_overlap": 98.5,
+        "conf_volume": 44.4,
+        "indicators_computed": 372
+      },
+      "score_breakdown": {
+        "technical_pts": 32.5,
+        "relative_strength_pts": 12.4,
+        "fundamental_pts": 17.0,
+        "sector_pts": 3.8,
+        "event_pts": 8.5,
+        "confluence_pts": 11.1,
+        "weighted": 85.4,
+        "penalty": 0.0,
+        "final": 85.4
+      },
+      "fundamentals": {
+        "roe_pct": null,
+        "debt_to_equity": 0.07302,
+        "revenue_growth_pct": 20.4,
+        "eps_growth_pct": 55.400000000000006,
+        "profit_margin_pct": 10.7980005,
+        "pe": 35.71595,
+        "market_cap_cr": 19245.309952,
+        "trailing_eps": 34.29,
+        "loss_making": false
+      },
+      "events": {
+        "next_earnings": "2026-10-20",
+        "ex_dividend": "2026-09-21"
+      },
+      "metrics": {
+        "dist_from_ema20_pct": 0.74,
+        "rsi": 52.9,
+        "adx": 13.5,
+        "pct_of_52w_high": 95.8,
+        "rs_line_new_high": true,
+        "rs_excess_20d_pct": 3.7
+      },
+      "risks": [],
+      "rejected_reason": "risk: market regime: no new longs"
     },
     {
       "symbol": "APLAPOLLO",
@@ -1336,74 +1403,6 @@
       "rejected_reason": "risk: market regime: no new longs"
     },
     {
-      "symbol": "KAJARIACER",
-      "sector": "Consumer Durables",
-      "as_of": "2026-10-12",
-      "close": 1224.7,
-      "setup_type": "Pullback",
-      "technical_score": 95.7,
-      "rs_percentile": 73.0,
-      "rs_excess_pct": 7.18,
-      "sector_score": 45.0,
-      "fundamental_score": 100.0,
-      "event_score": 0.0,
-      "confluence_score": 74.1,
-      "penalty": 0.0,
-      "final_score": 76.9,
-      "action": "WATCH",
-      "breakout_grade": "",
-      "live_status": "",
-      "follow_through": "Partial",
-      "loss_making": false,
-      "failed_breakout": false,
-      "confluence": {
-        "confluence_score": 74.1,
-        "conf_trend": 84.6,
-        "conf_momentum": 69.1,
-        "conf_overlap": 98.5,
-        "conf_volume": 44.4,
-        "indicators_computed": 372
-      },
-      "score_breakdown": {
-        "technical_pts": 32.5,
-        "relative_strength_pts": 12.4,
-        "fundamental_pts": 17.0,
-        "sector_pts": 3.8,
-        "event_pts": 0.0,
-        "confluence_pts": 11.1,
-        "weighted": 76.9,
-        "penalty": 0.0,
-        "final": 76.9
-      },
-      "fundamentals": {
-        "roe_pct": null,
-        "debt_to_equity": 0.07302,
-        "revenue_growth_pct": 20.4,
-        "eps_growth_pct": 55.400000000000006,
-        "profit_margin_pct": 10.7980005,
-        "pe": 35.71595,
-        "market_cap_cr": 19245.309952,
-        "trailing_eps": 34.29,
-        "loss_making": false
-      },
-      "events": {
-        "next_earnings": "2026-10-15",
-        "ex_dividend": "2026-09-21"
-      },
-      "metrics": {
-        "dist_from_ema20_pct": 0.74,
-        "rsi": 52.9,
-        "adx": 13.5,
-        "pct_of_52w_high": 95.8,
-        "rs_line_new_high": true,
-        "rs_excess_20d_pct": 3.7
-      },
-      "risks": [
-        "Results due 2026-10-15 (3d) — gap risk through the stop."
-      ],
-      "rejected_reason": "earnings blackout: results on 2026-10-15"
-    },
-    {
       "symbol": "JYOTICNC",
       "sector": "Capital Goods",
       "as_of": "2026-10-12",
@@ -1734,7 +1733,7 @@
         "loss_making": false
       },
       "events": {
-        "next_earnings": "2026-10-15",
+        "next_earnings": "2026-10-16",
         "ex_dividend": "2026-06-12"
       },
       "metrics": {
@@ -1748,9 +1747,9 @@
         "rs_excess_20d_pct": 4.02
       },
       "risks": [
-        "Results due 2026-10-15 (3d) — gap risk through the stop."
+        "Results due 2026-10-16 (4d) — gap risk through the stop."
       ],
-      "rejected_reason": "earnings blackout: results on 2026-10-15"
+      "rejected_reason": "earnings blackout: results on 2026-10-16"
     }
   ],
   "sectors": [
@@ -2274,14 +2273,14 @@
       "pre_breakout_score": 70.0,
       "pullback_score": 100.0,
       "pct_of_52w_high": 95.8,
-      "status": "earnings blackout: results on 2026-10-15",
+      "status": "risk: market regime: no new longs",
       "rs_percentile": 73.0,
       "sector_score": 45.0,
       "fundamental_score": 100.0,
-      "event_score": 0.0,
+      "event_score": 100.0,
       "confluence_score": 74.1,
       "penalty": 0.0,
-      "final_score": 76.9,
+      "final_score": 85.4,
       "action": "WATCH"
     },
     {
@@ -2848,7 +2847,7 @@
       "pre_breakout_score": 80.0,
       "pullback_score": 70.0,
       "pct_of_52w_high": 88.3,
-      "status": "earnings blackout: results on 2026-10-15",
+      "status": "earnings blackout: results on 2026-10-16",
       "rs_percentile": 83.3,
       "sector_score": 60.0,
       "fundamental_score": 81.2,

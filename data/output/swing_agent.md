@@ -1,8 +1,8 @@
 # Swing Trade Agent — setups for the session after 2026-10-12
 
-_Generated 2026-10-12 17:56 IST · Universe: Nifty 500 (495 stocks) · Capital ₹500,000_
+_Generated 2026-10-12 23:47 IST · Universe: Nifty 500 (495 stocks) · Capital ₹500,000_
 
-**Morning run 17:55 IST — setups from the 2026-10-12 close, with live status today**
+**Afternoon run 23:46 IST — PROVISIONAL: today's candle is not final until 15:30**
 
 ## Market regime: 🔴 BEARISH (risk × 0)
 
@@ -28,6 +28,7 @@ _No setups passed every gate today. Cash is a position._
 | PNBHOUSING | WATCH | Breakout | 86 | risk: market regime: no new longs |
 | AIIL | WATCH | Pullback | 86 | risk: market regime: no new longs |
 | PERSISTENT | WATCH | Pre-Breakout | 86 | earnings blackout: results on 2026-10-15 |
+| KAJARIACER | WATCH | Pullback | 85 | risk: market regime: no new longs |
 | APLAPOLLO | WATCH | Pullback | 85 | risk: market regime: no new longs |
 | ACE | WATCH | Pullback | 85 | risk: market regime: no new longs |
 | NYKAA | WATCH | Pre-Breakout | 85 | risk: market regime: no new longs |
@@ -39,12 +40,11 @@ _No setups passed every gate today. Cash is a position._
 | MRPL | WATCH | Pullback | 79 | risk: market regime: no new longs |
 | KARURVYSYA | WATCH | Pre-Breakout | 78 | earnings blackout: results on 2026-10-15 |
 | SONACOMS | WATCH | Pullback | 78 | risk: market regime: no new longs |
-| KAJARIACER | WATCH | Pullback | 77 | earnings blackout: results on 2026-10-15 |
 | JYOTICNC | WATCH | Pullback | 76 | risk: market regime: no new longs |
 | AEGISVOPAK | WATCH | Pullback | 73 | relative strength 62 < 65 |
 | URBANCO | WATCH | Pullback | 72 | risk: market regime: no new longs |
 | INOXINDIA | WATCH | Pullback | 70 | risk: market regime: no new longs |
-| PNB | WATCH | Pre-Breakout | 69 | earnings blackout: results on 2026-10-15 |
+| PNB | WATCH | Pre-Breakout | 69 | earnings blackout: results on 2026-10-16 |
 
 ## Strongest sectors
 
@@ -76,6 +76,6 @@ _No setups passed every gate today. Cash is a position._
 - VEDPOWER: insufficient_history:83<220
 
 ---
-Sources: Yahoo Finance (adjusted daily OHLCV, fundamentals, calendar), NSE bhavcopy 2026-10-12 (close cross-check), 8 clearly illiquid stocks skipped before indicators, pandas-ta-classic indicator confluence
+Sources: Yahoo Finance (adjusted daily OHLCV, fundamentals, calendar), prefetched history + live refresh of 486 liquid stocks at 23:47:38 IST, NSE bhavcopy 2026-10-12 (close cross-check), 8 clearly illiquid stocks skipped before indicators, pandas-ta-classic indicator confluence
 
 > Research output only — not investment advice and not an order. Verify prices, results dates and liquidity before trading; size positions to your own risk tolerance.
