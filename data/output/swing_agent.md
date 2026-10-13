@@ -1,8 +1,8 @@
 # Swing Trade Agent — setups for the session after 2026-10-13
 
-_Generated 2026-10-13 17:40 IST · Universe: Nifty 500 (495 stocks) · Capital ₹500,000_
+_Generated 2026-10-13 22:02 IST · Universe: Nifty 500 (495 stocks) · Capital ₹500,000_
 
-**Morning run 17:39 IST — setups from the 2026-10-13 close, with live status today**
+**Afternoon run 22:01 IST — PROVISIONAL: today's candle is not final until 15:30**
 
 ## Market regime: 🔴 BEARISH (risk × 0)
 
@@ -31,6 +31,7 @@ _No setups passed every gate today. Cash is a position._
 | MAHABANK | WATCH | Pre-Breakout | 85 | risk: market regime: no new longs |
 | REDINGTON | WATCH | Pullback | 85 | risk: market regime: no new longs |
 | GRAPHITE | WATCH | Pullback | 84 | risk: market regime: no new longs |
+| ACE | WATCH | Pullback | 82 | risk: market regime: no new longs |
 | MOTILALOFS | WATCH | Pre-Breakout | 82 | risk: market regime: no new longs |
 | SANSERA | WATCH | Pullback | 82 | risk: market regime: no new longs |
 | PAYTM | WATCH | Pullback | 82 | risk: market regime: no new longs |
@@ -39,11 +40,10 @@ _No setups passed every gate today. Cash is a position._
 | SONACOMS | WATCH | Pullback | 80 | risk: market regime: no new longs |
 | NYKAA | WATCH | Pre-Breakout | 80 | risk: market regime: no new longs |
 | SOLARINDS | WATCH | Pullback | 79 | risk: market regime: no new longs |
+| JYOTICNC | WATCH | Pullback | 79 | risk: market regime: no new longs |
 | TBOTEK | WATCH | Pullback | 78 | risk: market regime: no new longs |
 | CARBORUNIV | WATCH | Pullback | 77 | risk: market regime: no new longs |
-| JYOTICNC | WATCH | Pullback | 75 | risk: market regime: no new longs |
 | IPCALAB | WATCH | Pullback | 74 | risk: market regime: no new longs |
-| ACE | WATCH | Pullback | 74 | risk: market regime: no new longs |
 | INOXINDIA | WATCH | Pullback | 73 | risk: market regime: no new longs |
 
 ## Strongest sectors
@@ -76,6 +76,6 @@ _No setups passed every gate today. Cash is a position._
 - VEDPOWER: insufficient_history:83<220
 
 ---
-Sources: Yahoo Finance (adjusted daily OHLCV, fundamentals, calendar), NSE bhavcopy 2026-10-13 (close cross-check), 8 clearly illiquid stocks skipped before indicators, pandas-ta-classic indicator confluence
+Sources: Yahoo Finance (adjusted daily OHLCV, fundamentals, calendar), prefetched history + live refresh of 486 liquid stocks at 22:02:21 IST, NSE bhavcopy 2026-10-13 (close cross-check), 8 clearly illiquid stocks skipped before indicators, pandas-ta-classic indicator confluence
 
 > Research output only — not investment advice and not an order. Verify prices, results dates and liquidity before trading; size positions to your own risk tolerance.

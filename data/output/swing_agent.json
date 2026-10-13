@@ -1,13 +1,14 @@
 {
   "as_of": "2026-10-13",
-  "generated_at": "2026-10-13 17:40 IST",
-  "session": "morning",
-  "session_label": "Morning run 17:39 IST — setups from the 2026-10-13 close, with live status today",
+  "generated_at": "2026-10-13 22:02 IST",
+  "session": "afternoon",
+  "session_label": "Afternoon run 22:01 IST — PROVISIONAL: today's candle is not final until 15:30",
   "capital": 500000.0,
   "universe_size": 495,
   "universe_name": "Nifty 500",
   "data_sources": [
     "Yahoo Finance (adjusted daily OHLCV, fundamentals, calendar)",
+    "prefetched history + live refresh of 486 liquid stocks at 22:02:21 IST",
     "NSE bhavcopy 2026-10-13 (close cross-check)",
     "8 clearly illiquid stocks skipped before indicators",
     "pandas-ta-classic indicator confluence"
@@ -218,9 +219,9 @@
         "revenue_growth_pct": 37.1,
         "eps_growth_pct": 269.0,
         "profit_margin_pct": 13.949000999999999,
-        "pe": 40.761345,
+        "pe": 39.04628,
         "market_cap_cr": 48859.201536,
-        "trailing_eps": 34.15,
+        "trailing_eps": 35.65,
         "loss_making": false
       },
       "events": {
@@ -558,9 +559,9 @@
         "revenue_growth_pct": 8.5,
         "eps_growth_pct": 11.0,
         "profit_margin_pct": 5.2259997,
-        "pe": 50.36883,
+        "pe": 49.356224,
         "market_cap_cr": 60668.3594752,
-        "trailing_eps": 43.38,
+        "trailing_eps": 44.27,
         "loss_making": false
       },
       "events": {
@@ -692,9 +693,9 @@
         "revenue_growth_pct": 34.599999999999994,
         "eps_growth_pct": 76.7,
         "profit_margin_pct": 1.3259999,
-        "pe": 18.496933,
+        "pe": 18.01241,
         "market_cap_cr": 30641.6484352,
-        "trailing_eps": 21.19,
+        "trailing_eps": 21.76,
         "loss_making": false
       },
       "events": {
@@ -782,6 +783,74 @@
       "rejected_reason": "risk: market regime: no new longs"
     },
     {
+      "symbol": "ACE",
+      "sector": "Capital Goods",
+      "as_of": "2026-10-13",
+      "close": 1192.9,
+      "setup_type": "Pullback",
+      "technical_score": 89.2,
+      "rs_percentile": 94.0,
+      "rs_excess_pct": 27.39,
+      "sector_score": 65.0,
+      "fundamental_score": 100.0,
+      "event_score": 100.0,
+      "confluence_score": 32.6,
+      "penalty": 0.0,
+      "final_score": 82.2,
+      "action": "WATCH",
+      "breakout_grade": "",
+      "live_status": "",
+      "follow_through": "Partial",
+      "loss_making": false,
+      "failed_breakout": false,
+      "confluence": {
+        "confluence_score": 32.6,
+        "conf_trend": 30.8,
+        "conf_momentum": 49.1,
+        "conf_overlap": 39.4,
+        "conf_volume": 11.1,
+        "indicators_computed": 372
+      },
+      "score_breakdown": {
+        "technical_pts": 30.3,
+        "relative_strength_pts": 16.0,
+        "fundamental_pts": 17.0,
+        "sector_pts": 5.5,
+        "event_pts": 8.5,
+        "confluence_pts": 4.9,
+        "weighted": 82.2,
+        "penalty": 0.0,
+        "final": 82.2
+      },
+      "fundamentals": {
+        "roe_pct": null,
+        "debt_to_equity": 0.00393,
+        "revenue_growth_pct": 20.5,
+        "eps_growth_pct": 22.3,
+        "profit_margin_pct": 12.796,
+        "pe": 33.17297,
+        "market_cap_cr": 14198.8364288,
+        "trailing_eps": 35.96,
+        "loss_making": false
+      },
+      "events": {
+        "next_earnings": null,
+        "ex_dividend": "2026-09-03"
+      },
+      "metrics": {
+        "dist_from_ema20_pct": 0.56,
+        "rsi": 50.8,
+        "adx": 25.0,
+        "pct_of_52w_high": 94.1,
+        "rs_line_new_high": false,
+        "rs_excess_20d_pct": 9.61
+      },
+      "risks": [
+        "Indicator confluence only 33% bullish — most indicators disagree."
+      ],
+      "rejected_reason": "risk: market regime: no new longs"
+    },
+    {
       "symbol": "MOTILALOFS",
       "sector": "Financial Services",
       "as_of": "2026-10-13",
@@ -827,9 +896,9 @@
         "revenue_growth_pct": 23.9,
         "eps_growth_pct": 8.7,
         "profit_margin_pct": 22.963,
-        "pe": 33.94411,
+        "pe": 33.133915,
         "market_cap_cr": 64452.2377216,
-        "trailing_eps": 31.49,
+        "trailing_eps": 32.26,
         "loss_making": false
       },
       "events": {
@@ -895,9 +964,9 @@
         "revenue_growth_pct": 33.300000000000004,
         "eps_growth_pct": 38.3,
         "profit_margin_pct": 9.284,
-        "pe": 84.02053,
+        "pe": 81.964935,
         "market_cap_cr": 26557.505536,
-        "trailing_eps": 50.64,
+        "trailing_eps": 51.91,
         "loss_making": false
       },
       "events": {
@@ -914,7 +983,7 @@
       },
       "risks": [
         "High volatility (ATR 4.5% of price).",
-        "Rich valuation: P/E 84 > 60 — less margin for error on bad news."
+        "Rich valuation: P/E 82 > 60 — less margin for error on bad news."
       ],
       "rejected_reason": "risk: market regime: no new longs"
     },
@@ -1033,9 +1102,9 @@
         "revenue_growth_pct": 11.799999999999999,
         "eps_growth_pct": 76.0,
         "profit_margin_pct": 11.297,
-        "pe": 86.525635,
+        "pe": 86.4268,
         "market_cap_cr": 60831.0329344,
-        "trailing_eps": 52.47,
+        "trailing_eps": 52.53,
         "loss_making": false
       },
       "events": {
@@ -1053,7 +1122,7 @@
         "rs_excess_20d_pct": 5.01
       },
       "risks": [
-        "Rich valuation: P/E 87 > 60 — less margin for error on bad news."
+        "Rich valuation: P/E 86 > 60 — less margin for error on bad news."
       ],
       "rejected_reason": "risk: market regime: no new longs"
     },
@@ -1240,9 +1309,9 @@
         "revenue_growth_pct": 29.099999999999998,
         "eps_growth_pct": 250.0,
         "profit_margin_pct": 2.405,
-        "pe": 375.55557,
+        "pe": 379.7753,
         "market_cap_cr": 96859.4030592,
-        "trailing_eps": 0.9,
+        "trailing_eps": 0.89,
         "loss_making": false
       },
       "events": {
@@ -1260,7 +1329,7 @@
         "rs_excess_20d_pct": 2.06
       },
       "risks": [
-        "Rich valuation: P/E 376 > 60 — less margin for error on bad news."
+        "Rich valuation: P/E 380 > 60 — less margin for error on bad news."
       ],
       "rejected_reason": "risk: market regime: no new longs"
     },
@@ -1310,9 +1379,9 @@
         "revenue_growth_pct": 70.3,
         "eps_growth_pct": 92.7,
         "profit_margin_pct": 17.543,
-        "pe": 92.80632,
+        "pe": 91.279655,
         "market_cap_cr": 181767.3728,
-        "trailing_eps": 216.44,
+        "trailing_eps": 220.06,
         "loss_making": false
       },
       "events": {
@@ -1328,7 +1397,76 @@
         "rs_excess_20d_pct": -6.99
       },
       "risks": [
-        "Rich valuation: P/E 93 > 60 — less margin for error on bad news."
+        "Rich valuation: P/E 91 > 60 — less margin for error on bad news."
+      ],
+      "rejected_reason": "risk: market regime: no new longs"
+    },
+    {
+      "symbol": "JYOTICNC",
+      "sector": "Capital Goods",
+      "as_of": "2026-10-13",
+      "close": 1022.2,
+      "setup_type": "Pullback",
+      "technical_score": 89.2,
+      "rs_percentile": 93.4,
+      "rs_excess_pct": 36.38,
+      "sector_score": 65.0,
+      "fundamental_score": 73.3,
+      "event_score": 100.0,
+      "confluence_score": 42.2,
+      "penalty": 0.0,
+      "final_score": 79.0,
+      "action": "WATCH",
+      "breakout_grade": "",
+      "live_status": "",
+      "follow_through": "Partial",
+      "loss_making": false,
+      "failed_breakout": false,
+      "confluence": {
+        "confluence_score": 42.2,
+        "conf_trend": 30.8,
+        "conf_momentum": 41.8,
+        "conf_overlap": 43.9,
+        "conf_volume": 27.8,
+        "indicators_computed": 372
+      },
+      "score_breakdown": {
+        "technical_pts": 30.3,
+        "relative_strength_pts": 15.9,
+        "fundamental_pts": 12.5,
+        "sector_pts": 5.5,
+        "event_pts": 8.5,
+        "confluence_pts": 6.3,
+        "weighted": 79.0,
+        "penalty": 0.0,
+        "final": 79.0
+      },
+      "fundamentals": {
+        "roe_pct": null,
+        "debt_to_equity": 0.42609,
+        "revenue_growth_pct": 24.0,
+        "eps_growth_pct": -20.1,
+        "profit_margin_pct": 14.681,
+        "pe": 73.4867,
+        "market_cap_cr": 23247.1904256,
+        "trailing_eps": 13.91,
+        "loss_making": false
+      },
+      "events": {
+        "next_earnings": null,
+        "ex_dividend": null
+      },
+      "metrics": {
+        "dist_from_ema20_pct": 0.76,
+        "rsi": 50.5,
+        "adx": 22.4,
+        "pct_of_52w_high": 90.1,
+        "rs_line_new_high": false,
+        "rs_excess_20d_pct": 5.04
+      },
+      "risks": [
+        "High volatility (ATR 4.4% of price).",
+        "Rich valuation: P/E 73 > 60 — less margin for error on bad news."
       ],
       "rejected_reason": "risk: market regime: no new longs"
     },
@@ -1378,9 +1516,9 @@
         "revenue_growth_pct": 81.10000000000001,
         "eps_growth_pct": 32.300000000000004,
         "profit_margin_pct": 8.561,
-        "pe": 65.75528,
+        "pe": 67.092316,
         "market_cap_cr": 17617.2220416,
-        "trailing_eps": 25.09,
+        "trailing_eps": 24.59,
         "loss_making": false
       },
       "events": {
@@ -1396,7 +1534,7 @@
         "rs_excess_20d_pct": 1.92
       },
       "risks": [
-        "Rich valuation: P/E 66 > 60 — less margin for error on bad news.",
+        "Rich valuation: P/E 67 > 60 — less margin for error on bad news.",
         "Indicator confluence only 32% bullish — most indicators disagree."
       ],
       "rejected_reason": "risk: market regime: no new longs"
@@ -1447,9 +1585,9 @@
         "revenue_growth_pct": 19.400000000000002,
         "eps_growth_pct": 23.5,
         "profit_margin_pct": 3.849,
-        "pe": 106.537766,
+        "pe": 107.11572,
         "market_cap_cr": 22569.7333248,
-        "trailing_eps": 11.12,
+        "trailing_eps": 11.06,
         "loss_making": false
       },
       "events": {
@@ -1467,75 +1605,6 @@
       "risks": [
         "High volatility (ATR 4.3% of price).",
         "Rich valuation: P/E 107 > 60 — less margin for error on bad news."
-      ],
-      "rejected_reason": "risk: market regime: no new longs"
-    },
-    {
-      "symbol": "JYOTICNC",
-      "sector": "Capital Goods",
-      "as_of": "2026-10-13",
-      "close": 1022.2,
-      "setup_type": "Pullback",
-      "technical_score": 89.2,
-      "rs_percentile": 93.4,
-      "rs_excess_pct": 36.38,
-      "sector_score": 65.0,
-      "fundamental_score": 50.0,
-      "event_score": 100.0,
-      "confluence_score": 42.2,
-      "penalty": 0.0,
-      "final_score": 75.1,
-      "action": "WATCH",
-      "breakout_grade": "",
-      "live_status": "",
-      "follow_through": "Partial",
-      "loss_making": false,
-      "failed_breakout": false,
-      "confluence": {
-        "confluence_score": 42.2,
-        "conf_trend": 30.8,
-        "conf_momentum": 41.8,
-        "conf_overlap": 43.9,
-        "conf_volume": 27.8,
-        "indicators_computed": 372
-      },
-      "score_breakdown": {
-        "technical_pts": 30.3,
-        "relative_strength_pts": 15.9,
-        "fundamental_pts": 8.5,
-        "sector_pts": 5.5,
-        "event_pts": 8.5,
-        "confluence_pts": 6.3,
-        "weighted": 75.1,
-        "penalty": 0.0,
-        "final": 75.1
-      },
-      "fundamentals": {
-        "roe_pct": null,
-        "debt_to_equity": null,
-        "revenue_growth_pct": null,
-        "eps_growth_pct": null,
-        "profit_margin_pct": null,
-        "pe": 73.4867,
-        "market_cap_cr": 23247.1904256,
-        "trailing_eps": null,
-        "loss_making": false
-      },
-      "events": {
-        "next_earnings": null,
-        "ex_dividend": null
-      },
-      "metrics": {
-        "dist_from_ema20_pct": 0.76,
-        "rsi": 50.5,
-        "adx": 22.4,
-        "pct_of_52w_high": 90.1,
-        "rs_line_new_high": false,
-        "rs_excess_20d_pct": 5.04
-      },
-      "risks": [
-        "High volatility (ATR 4.4% of price).",
-        "Rich valuation: P/E 73 > 60 — less margin for error on bad news."
       ],
       "rejected_reason": "risk: market regime: no new longs"
     },
@@ -1608,74 +1677,6 @@
       "rejected_reason": "risk: market regime: no new longs"
     },
     {
-      "symbol": "ACE",
-      "sector": "Capital Goods",
-      "as_of": "2026-10-13",
-      "close": 1192.9,
-      "setup_type": "Pullback",
-      "technical_score": 89.2,
-      "rs_percentile": 94.0,
-      "rs_excess_pct": 27.39,
-      "sector_score": 65.0,
-      "fundamental_score": 50.0,
-      "event_score": 100.0,
-      "confluence_score": 32.6,
-      "penalty": 0.0,
-      "final_score": 73.7,
-      "action": "WATCH",
-      "breakout_grade": "",
-      "live_status": "",
-      "follow_through": "Partial",
-      "loss_making": false,
-      "failed_breakout": false,
-      "confluence": {
-        "confluence_score": 32.6,
-        "conf_trend": 30.8,
-        "conf_momentum": 49.1,
-        "conf_overlap": 39.4,
-        "conf_volume": 11.1,
-        "indicators_computed": 372
-      },
-      "score_breakdown": {
-        "technical_pts": 30.3,
-        "relative_strength_pts": 16.0,
-        "fundamental_pts": 8.5,
-        "sector_pts": 5.5,
-        "event_pts": 8.5,
-        "confluence_pts": 4.9,
-        "weighted": 73.7,
-        "penalty": 0.0,
-        "final": 73.7
-      },
-      "fundamentals": {
-        "roe_pct": null,
-        "debt_to_equity": null,
-        "revenue_growth_pct": null,
-        "eps_growth_pct": null,
-        "profit_margin_pct": null,
-        "pe": 33.17297,
-        "market_cap_cr": 14198.8364288,
-        "trailing_eps": null,
-        "loss_making": false
-      },
-      "events": {
-        "next_earnings": null,
-        "ex_dividend": "2026-09-03"
-      },
-      "metrics": {
-        "dist_from_ema20_pct": 0.56,
-        "rsi": 50.8,
-        "adx": 25.0,
-        "pct_of_52w_high": 94.1,
-        "rs_line_new_high": false,
-        "rs_excess_20d_pct": 9.61
-      },
-      "risks": [
-        "Indicator confluence only 33% bullish — most indicators disagree."
-      ],
-      "rejected_reason": "risk: market regime: no new longs"
-    },
-    {
       "symbol": "INOXINDIA",
       "sector": "Capital Goods",
       "as_of": "2026-10-13",
@@ -1721,9 +1722,9 @@
         "revenue_growth_pct": 9.2,
         "eps_growth_pct": -4.9,
         "profit_margin_pct": 15.748000000000001,
-        "pe": 75.203896,
+        "pe": 74.424995,
         "market_cap_cr": 18947.3292288,
-        "trailing_eps": 27.71,
+        "trailing_eps": 28.0,
         "loss_making": false
       },
       "events": {
@@ -1740,7 +1741,7 @@
       },
       "risks": [
         "High volatility (ATR 4.5% of price).",
-        "Rich valuation: P/E 75 > 60 — less margin for error on bad news."
+        "Rich valuation: P/E 74 > 60 — less margin for error on bad news."
       ],
       "rejected_reason": "risk: market regime: no new longs"
     }
@@ -2515,11 +2516,11 @@
       "status": "risk: market regime: no new longs",
       "rs_percentile": 94.0,
       "sector_score": 65.0,
-      "fundamental_score": 50.0,
+      "fundamental_score": 100.0,
       "event_score": 100.0,
       "confluence_score": 32.6,
       "penalty": 0.0,
-      "final_score": 73.7,
+      "final_score": 82.2,
       "action": "WATCH"
     },
     {
@@ -2556,11 +2557,11 @@
       "status": "risk: market regime: no new longs",
       "rs_percentile": 93.4,
       "sector_score": 65.0,
-      "fundamental_score": 50.0,
+      "fundamental_score": 73.3,
       "event_score": 100.0,
       "confluence_score": 42.2,
       "penalty": 0.0,
-      "final_score": 75.1,
+      "final_score": 79.0,
       "action": "WATCH"
     },
     {
