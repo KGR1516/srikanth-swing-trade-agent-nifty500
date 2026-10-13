@@ -1,16 +1,16 @@
-# Swing Trade Agent — setups for the session after 2026-10-12
+# Swing Trade Agent — setups for the session after 2026-10-13
 
-_Generated 2026-10-12 23:47 IST · Universe: Nifty 500 (495 stocks) · Capital ₹500,000_
+_Generated 2026-10-13 17:40 IST · Universe: Nifty 500 (495 stocks) · Capital ₹500,000_
 
-**Afternoon run 23:46 IST — PROVISIONAL: today's candle is not final until 15:30**
+**Morning run 17:39 IST — setups from the 2026-10-13 close, with live status today**
 
 ## Market regime: 🔴 BEARISH (risk × 0)
 
-- Nifty 50: 22,363.35 (-4.75% 20D)
+- Nifty 50: 22,721.95 (-2.89% 20D)
 - Nifty below 50-EMA, below 200-EMA; 50-EMA falling.
-- Breadth: 23% of universe above 50-EMA.
+- Breadth: 26% of universe above 50-EMA.
 - Bearish regime → no new long setups; watchlist only.
-- Verdicts: BUY NOW 0 · BUY 0 · WATCH 26 · AVOID 0 · SKIP 445
+- Verdicts: BUY NOW 0 · BUY 0 · WATCH 30 · AVOID 0 · SKIP 441
 
 ## Next-session setups (0)
 
@@ -20,41 +20,41 @@ _No setups passed every gate today. Cash is a position._
 
 | Symbol | Action | Setup | Score | Why not a setup |
 |---|---|---|---:|---|
-| CARTRADE | WATCH | Breakout | 95 | risk: market regime: no new longs |
-| KOTAKBANK | WATCH | Pre-Breakout | 90 | risk: market regime: no new longs |
-| COFORGE | WATCH | Pre-Breakout | 90 | risk: market regime: no new longs |
-| AUROPHARMA | WATCH | Pre-Breakout | 89 | risk: market regime: no new longs |
-| GRAPHITE | WATCH | Pullback | 88 | risk: market regime: no new longs |
-| PNBHOUSING | WATCH | Breakout | 86 | risk: market regime: no new longs |
-| AIIL | WATCH | Pullback | 86 | risk: market regime: no new longs |
-| PERSISTENT | WATCH | Pre-Breakout | 86 | earnings blackout: results on 2026-10-15 |
-| KAJARIACER | WATCH | Pullback | 85 | risk: market regime: no new longs |
+| COFORGE | WATCH | Breakout | 95 | risk: market regime: no new longs |
+| LAURUSLABS | WATCH | Pre-Breakout | 92 | risk: market regime: no new longs |
+| AEGISLOG | WATCH | Pullback | 89 | risk: market regime: no new longs |
+| KAJARIACER | WATCH | Pullback | 88 | risk: market regime: no new longs |
+| KOTAKBANK | WATCH | Pre-Breakout | 87 | risk: market regime: no new longs |
+| PERSISTENT | WATCH | Breakout | 87 | earnings blackout: results on 2026-10-15 |
+| ADANIPORTS | WATCH | Pullback | 86 | risk: market regime: no new longs |
 | APLAPOLLO | WATCH | Pullback | 85 | risk: market regime: no new longs |
-| ACE | WATCH | Pullback | 85 | risk: market regime: no new longs |
-| NYKAA | WATCH | Pre-Breakout | 85 | risk: market regime: no new longs |
-| REDINGTON | WATCH | Pullback | 84 | risk: market regime: no new longs |
-| BALRAMCHIN | WATCH | Pre-Breakout | 82 | risk: market regime: no new longs |
-| RADICO | WATCH | Pre-Breakout | 82 | risk: market regime: no new longs |
-| PAYTM | WATCH | Pullback | 82 | risk: market regime: no new longs |
+| MAHABANK | WATCH | Pre-Breakout | 85 | risk: market regime: no new longs |
+| REDINGTON | WATCH | Pullback | 85 | risk: market regime: no new longs |
+| GRAPHITE | WATCH | Pullback | 84 | risk: market regime: no new longs |
+| MOTILALOFS | WATCH | Pre-Breakout | 82 | risk: market regime: no new longs |
 | SANSERA | WATCH | Pullback | 82 | risk: market regime: no new longs |
-| MRPL | WATCH | Pullback | 79 | risk: market regime: no new longs |
-| KARURVYSYA | WATCH | Pre-Breakout | 78 | earnings blackout: results on 2026-10-15 |
-| SONACOMS | WATCH | Pullback | 78 | risk: market regime: no new longs |
-| JYOTICNC | WATCH | Pullback | 76 | risk: market regime: no new longs |
-| AEGISVOPAK | WATCH | Pullback | 73 | relative strength 62 < 65 |
-| URBANCO | WATCH | Pullback | 72 | risk: market regime: no new longs |
-| INOXINDIA | WATCH | Pullback | 70 | risk: market regime: no new longs |
-| PNB | WATCH | Pre-Breakout | 69 | earnings blackout: results on 2026-10-16 |
+| PAYTM | WATCH | Pullback | 82 | risk: market regime: no new longs |
+| RADICO | WATCH | Pre-Breakout | 81 | risk: market regime: no new longs |
+| TEGA | WATCH | Pullback | 81 | risk: market regime: no new longs |
+| SONACOMS | WATCH | Pullback | 80 | risk: market regime: no new longs |
+| NYKAA | WATCH | Pre-Breakout | 80 | risk: market regime: no new longs |
+| SOLARINDS | WATCH | Pullback | 79 | risk: market regime: no new longs |
+| TBOTEK | WATCH | Pullback | 78 | risk: market regime: no new longs |
+| CARBORUNIV | WATCH | Pullback | 77 | risk: market regime: no new longs |
+| JYOTICNC | WATCH | Pullback | 75 | risk: market regime: no new longs |
+| IPCALAB | WATCH | Pullback | 74 | risk: market regime: no new longs |
+| ACE | WATCH | Pullback | 74 | risk: market regime: no new longs |
+| INOXINDIA | WATCH | Pullback | 73 | risk: market regime: no new longs |
 
 ## Strongest sectors
 
 | Sector | 3M median % | Breadth % | Score |
 |---|---:|---:|---:|
-| Media Entertainment & Publication | +15.9 | 50 | 100 |
-| Services | -3.4 | 38 | 95 |
-| Information Technology | -2.7 | 29 | 90 |
-| Consumer Services | -3.7 | 33 | 85 |
-| Textiles | -4.7 | 25 | 80 |
+| Media Entertainment & Publication | +16.1 | 50 | 100 |
+| Information Technology | +0.7 | 58 | 95 |
+| Services | -2.6 | 46 | 90 |
+| Textiles | -4.1 | 50 | 85 |
+| Consumer Services | -2.6 | 43 | 80 |
 
 ## Data quality — 16 excluded
 
@@ -76,6 +76,6 @@ _No setups passed every gate today. Cash is a position._
 - VEDPOWER: insufficient_history:83<220
 
 ---
-Sources: Yahoo Finance (adjusted daily OHLCV, fundamentals, calendar), prefetched history + live refresh of 486 liquid stocks at 23:47:38 IST, NSE bhavcopy 2026-10-12 (close cross-check), 8 clearly illiquid stocks skipped before indicators, pandas-ta-classic indicator confluence
+Sources: Yahoo Finance (adjusted daily OHLCV, fundamentals, calendar), NSE bhavcopy 2026-10-13 (close cross-check), 8 clearly illiquid stocks skipped before indicators, pandas-ta-classic indicator confluence
 
 > Research output only — not investment advice and not an order. Verify prices, results dates and liquidity before trading; size positions to your own risk tolerance.
