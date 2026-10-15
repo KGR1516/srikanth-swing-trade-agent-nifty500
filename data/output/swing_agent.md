@@ -1,8 +1,8 @@
 # Swing Trade Agent — setups for the session after 2026-10-14
 
-_Generated 2026-10-14 19:38 IST · Universe: Nifty 500 (495 stocks) · Capital ₹500,000_
+_Generated 2026-10-15 14:56 IST · Universe: Nifty 500 (495 stocks) · Capital ₹500,000_
 
-**Afternoon run 19:37 IST — PROVISIONAL: today's candle is not final until 15:30**
+**Morning run 14:55 IST — setups from the 2026-10-14 close, with live status today**
 
 ## Market regime: 🔴 BEARISH (risk × 0)
 
@@ -20,6 +20,7 @@ _No setups passed every gate today. Cash is a position._
 
 | Symbol | Action | Setup | Score | Why not a setup |
 |---|---|---|---:|---|
+| BHEL | WATCH | Breakout | 93 | risk: market regime: no new longs |
 | SHYAMMETL | WATCH | Pre-Breakout | 91 | risk: market regime: no new longs |
 | RRKABEL | WATCH | Pullback | 91 | risk: market regime: no new longs |
 | HAL | WATCH | Pre-Breakout | 89 | risk: market regime: no new longs |
@@ -32,7 +33,6 @@ _No setups passed every gate today. Cash is a position._
 | SYRMA | WATCH | Pullback | 85 | risk: market regime: no new longs |
 | LALPATHLAB | WATCH | Pullback | 85 | risk: market regime: no new longs |
 | SONACOMS | WATCH | Pullback | 85 | risk: market regime: no new longs |
-| BHEL | WATCH | Breakout | 84 | earnings blackout: results on 2026-10-14 |
 | APLAPOLLO | WATCH | Pullback | 84 | risk: market regime: no new longs |
 | MAHABANK | WATCH | Pre-Breakout | 84 | risk: market regime: no new longs |
 | INDHOTEL | WATCH | Pullback | 83 | risk: market regime: no new longs |
@@ -76,6 +76,6 @@ _No setups passed every gate today. Cash is a position._
 - VEDPOWER: insufficient_history:85<220
 
 ---
-Sources: Yahoo Finance (adjusted daily OHLCV, fundamentals, calendar), prefetched history + live refresh of 486 liquid stocks at 19:38:16 IST, NSE bhavcopy 2026-10-14 (close cross-check), 8 clearly illiquid stocks skipped before indicators, pandas-ta-classic indicator confluence
+Sources: Yahoo Finance (adjusted daily OHLCV, fundamentals, calendar), NSE bhavcopy 2026-10-14 (close cross-check), setups from last completed session; today's live candle used only for status (494 symbols), 8 clearly illiquid stocks skipped before indicators, pandas-ta-classic indicator confluence
 
 > Research output only — not investment advice and not an order. Verify prices, results dates and liquidity before trading; size positions to your own risk tolerance.
