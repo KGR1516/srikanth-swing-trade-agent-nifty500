@@ -1,8 +1,8 @@
 # Swing Trade Agent — setups for the session after 2026-10-15
 
-_Generated 2026-10-15 19:16 IST · Universe: Nifty 500 (495 stocks) · Capital ₹500,000_
+_Generated 2026-10-16 14:48 IST · Universe: Nifty 500 (495 stocks) · Capital ₹500,000_
 
-**Afternoon run 19:15 IST — PROVISIONAL: today's candle is not final until 15:30**
+**Morning run 14:47 IST — setups from the 2026-10-15 close, with live status today**
 
 ## Market regime: 🔴 BEARISH (risk × 0)
 
@@ -20,22 +20,22 @@ _No setups passed every gate today. Cash is a position._
 
 | Symbol | Action | Setup | Score | Why not a setup |
 |---|---|---|---:|---|
+| TECHM | WATCH | Breakout | 92 | risk: market regime: no new longs |
 | INDHOTEL | WATCH | Pre-Breakout | 91 | risk: market regime: no new longs |
 | PETRONET | WATCH | Pre-Breakout | 90 | risk: market regime: no new longs |
 | HAL | WATCH | Pre-Breakout | 89 | risk: market regime: no new longs |
 | MOTILALOFS | WATCH | Pre-Breakout | 86 | risk: market regime: no new longs |
 | LGEINDIA | WATCH | Pullback | 86 | risk: market regime: no new longs |
 | NYKAA | WATCH | Pre-Breakout | 85 | risk: market regime: no new longs |
-| TECHM | WATCH | Breakout | 84 | earnings blackout: results on 2026-10-15 |
 | AUROPHARMA | WATCH | Pullback | 82 | risk: market regime: no new longs |
 | PAYTM | WATCH | Pullback | 80 | risk: market regime: no new longs |
 | GROWW | WATCH | Pre-Breakout | 80 | risk: market regime: no new longs |
 | ANGELONE | WATCH | Breakout | 79 | relative strength 63 < 65 |
 | DLF | WATCH | Pre-Breakout | 78 | risk: market regime: no new longs |
-| ETERNAL | WATCH | Pullback | 76 | risk: market regime: no new longs |
 | IPCALAB | WATCH | Pullback | 76 | risk: market regime: no new longs |
 | ICICIBANK | WATCH | Breakout | 75 | earnings blackout: results on 2026-10-17 |
 | LAURUSLABS | WATCH | Pre-Breakout | 69 | risk: market regime: no new longs |
+| ETERNAL | WATCH | Pullback | 68 | earnings blackout: results on 2026-10-21 |
 
 ## Strongest sectors
 
@@ -67,6 +67,6 @@ _No setups passed every gate today. Cash is a position._
 - VEDPOWER: insufficient_history:86<220
 
 ---
-Sources: Yahoo Finance (adjusted daily OHLCV, fundamentals, calendar), prefetched history + live refresh of 486 liquid stocks at 19:16:42 IST, NSE bhavcopy 2026-10-15 (close cross-check), 8 clearly illiquid stocks skipped before indicators, pandas-ta-classic indicator confluence
+Sources: Yahoo Finance (adjusted daily OHLCV, fundamentals, calendar), NSE bhavcopy 2026-10-15 (close cross-check), setups from last completed session; today's live candle used only for status (494 symbols), 8 clearly illiquid stocks skipped before indicators, pandas-ta-classic indicator confluence
 
 > Research output only — not investment advice and not an order. Verify prices, results dates and liquidity before trading; size positions to your own risk tolerance.
