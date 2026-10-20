@@ -1,8 +1,8 @@
 # Swing Trade Agent — setups for the session after 2026-10-19
 
-_Generated 2026-10-19 21:27 IST · Universe: Nifty 500 (496 stocks) · Capital ₹500,000_
+_Generated 2026-10-20 15:08 IST · Universe: Nifty 500 (496 stocks) · Capital ₹500,000_
 
-**Afternoon run 21:25 IST — PROVISIONAL: today's candle is not final until 15:30**
+**Morning run 15:08 IST — setups from the 2026-10-19 close, with live status today**
 
 ## Market regime: 🔴 BEARISH (risk × 0)
 
@@ -29,6 +29,7 @@ _No setups passed every gate today. Cash is a position._
 | CHENNPETRO | WATCH | Pullback | 85 | risk: market regime: no new longs |
 | WELCORP | WATCH | Pullback | 85 | risk: market regime: no new longs |
 | ADANIPORTS | WATCH | Pullback | 84 | relative strength 61 < 65 |
+| UNIONBANK | WATCH | Pre-Breakout | 82 | risk: market regime: no new longs |
 | INDHOTEL | WATCH | Pre-Breakout | 80 | earnings blackout: results on 2026-10-21 |
 | INDIANB | WATCH | Pre-Breakout | 79 | risk: market regime: no new longs |
 | SANSERA | WATCH | Pullback | 79 | risk: market regime: no new longs |
@@ -36,7 +37,6 @@ _No setups passed every gate today. Cash is a position._
 | LGEINDIA | WATCH | Pullback | 78 | risk: market regime: no new longs |
 | DLF | WATCH | Pre-Breakout | 78 | risk: market regime: no new longs |
 | CARTRADE | WATCH | Pullback | 76 | risk: market regime: no new longs |
-| UNIONBANK | WATCH | Pre-Breakout | 74 | earnings blackout: results on 2026-10-19 |
 | ACMESOLAR | WATCH | Pullback | 72 | risk: market regime: no new longs |
 | ICICIBANK | WATCH | Pre-Breakout | 64 | risk: market regime: no new longs |
 | MRPL | WATCH | Pullback | 62 | risk: market regime: no new longs |
@@ -71,6 +71,6 @@ _No setups passed every gate today. Cash is a position._
 - VEDPOWER: insufficient_history:88<220
 
 ---
-Sources: Yahoo Finance (adjusted daily OHLCV, fundamentals, calendar), prefetched history + live refresh of 487 liquid stocks at 21:27:02 IST, NSE bhavcopy 2026-10-19 (close cross-check), 8 clearly illiquid stocks skipped before indicators, pandas-ta-classic indicator confluence
+Sources: Yahoo Finance (adjusted daily OHLCV, fundamentals, calendar), NSE bhavcopy 2026-10-19 (close cross-check), 8 clearly illiquid stocks skipped before indicators, pandas-ta-classic indicator confluence
 
 > Research output only — not investment advice and not an order. Verify prices, results dates and liquidity before trading; size positions to your own risk tolerance.
