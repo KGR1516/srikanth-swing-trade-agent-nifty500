@@ -1,22 +1,22 @@
 # Swing Trade Agent — setups for the session after 2026-10-19
 
-_Generated 2026-10-20 19:26 IST · Universe: Nifty 500 (496 stocks) · Capital ₹500,000_
+_Generated 2026-10-21 15:08 IST · Universe: Nifty 500 (496 stocks) · Capital ₹500,000_
 
-**Afternoon run 19:24 IST — PROVISIONAL: today's candle is not final until 15:30**
+**Morning run 15:07 IST — setups from the 2026-10-19 close, with live status today**
 
 ## Market regime: 🔴 BEARISH (risk × 0)
 
 - Nifty 50: 22,888.95 (-1.96% 20D)
 - Nifty below 50-EMA, below 200-EMA; 50-EMA falling.
-- Breadth: 22% of universe above 50-EMA.
+- Breadth: 21% of universe above 50-EMA.
 - Bearish regime → no new long setups; watchlist only.
-- Verdicts: BUY NOW 0 · BUY 0 · WATCH 20 · AVOID 0 · SKIP 452
+- Verdicts: BUY NOW 0 · BUY 0 · WATCH 19 · AVOID 0 · SKIP 452
 
 ## Next-session setups (0)
 
 _No setups passed every gate today. Cash is a position._
 
-## Watchlist (20)
+## Watchlist (19)
 
 | Symbol | Action | Setup | Score | Why not a setup |
 |---|---|---|---:|---|
@@ -33,13 +33,12 @@ _No setups passed every gate today. Cash is a position._
 | INDHOTEL | WATCH | Pre-Breakout | 80 | earnings blackout: results on 2026-10-21 |
 | INDIANB | WATCH | Pre-Breakout | 79 | risk: market regime: no new longs |
 | SANSERA | WATCH | Pullback | 79 | risk: market regime: no new longs |
-| APLAPOLLO | WATCH | Pullback | 78 | risk: market regime: no new longs |
 | LGEINDIA | WATCH | Pullback | 78 | risk: market regime: no new longs |
 | DLF | WATCH | Pre-Breakout | 78 | risk: market regime: no new longs |
 | CARTRADE | WATCH | Pullback | 76 | risk: market regime: no new longs |
 | ACMESOLAR | WATCH | Pullback | 72 | risk: market regime: no new longs |
+| APLAPOLLO | WATCH | Pullback | 70 | earnings blackout: results on 2026-10-26 |
 | ICICIBANK | WATCH | Pre-Breakout | 64 | risk: market regime: no new longs |
-| MRPL | WATCH | Pullback | 62 | risk: market regime: no new longs |
 
 ## Strongest sectors
 
@@ -48,10 +47,10 @@ _No setups passed every gate today. Cash is a position._
 | Information Technology | +5.6 | 67 | 100 |
 | Media Entertainment & Publication | +16.7 | 50 | 95 |
 | Consumer Services | -2.3 | 29 | 90 |
-| Oil Gas & Consumable Fuels | -3.8 | 24 | 85 |
+| Oil Gas & Consumable Fuels | -4.5 | 19 | 85 |
 | Services | -5.2 | 31 | 80 |
 
-## Data quality — 16 excluded
+## Data quality — 17 excluded
 
 - BHARATCOAL: insufficient_history:185<220
 - CMPDI: insufficient_history:138<220
@@ -60,6 +59,7 @@ _No setups passed every gate today. Cash is a position._
 - FRACTAL: insufficient_history:166<220
 - HEGAM: extreme_move:62.6%_on_2026-09-07 (unadjusted split/bonus?)
 - ICICIAMC: insufficient_history:204<220
+- MRPL: nse_close_mismatch:1.73%
 - MEESHO: insufficient_history:211<220
 - POLICYBZR: extreme_move:36.0%_on_2026-09-24 (unadjusted split/bonus?)
 - TMPV: extreme_move:40.2%_on_2025-10-14 (unadjusted split/bonus?)
@@ -71,6 +71,6 @@ _No setups passed every gate today. Cash is a position._
 - VEDPOWER: insufficient_history:88<220
 
 ---
-Sources: Yahoo Finance (adjusted daily OHLCV, fundamentals, calendar), prefetched history + live refresh of 487 liquid stocks at 19:26:00 IST, NSE bhavcopy 2026-10-19 (close cross-check), 8 clearly illiquid stocks skipped before indicators, pandas-ta-classic indicator confluence
+Sources: Yahoo Finance (adjusted daily OHLCV, fundamentals, calendar), NSE bhavcopy 2026-10-19 (close cross-check), setups from last completed session; today's live candle used only for status (495 symbols), 8 clearly illiquid stocks skipped before indicators, pandas-ta-classic indicator confluence
 
 > Research output only — not investment advice and not an order. Verify prices, results dates and liquidity before trading; size positions to your own risk tolerance.
