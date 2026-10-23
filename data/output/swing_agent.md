@@ -1,8 +1,8 @@
 # Swing Trade Agent — setups for the session after 2026-10-22
 
-_Generated 2026-10-22 19:40 IST · Universe: Nifty 500 (496 stocks) · Capital ₹500,000_
+_Generated 2026-10-23 15:04 IST · Universe: Nifty 500 (496 stocks) · Capital ₹500,000_
 
-**Afternoon run 19:39 IST — PROVISIONAL: today's candle is not final until 15:30**
+**Morning run 15:03 IST — setups from the 2026-10-22 close, with live status today**
 
 ## Market regime: 🔴 BEARISH (risk × 0)
 
@@ -29,10 +29,10 @@ _No setups passed every gate today. Cash is a position._
 | LAURUSLABS | WATCH | Pullback | 79 | risk: market regime: no new longs |
 | ABDL | WATCH | Pullback | 78 | risk: market regime: no new longs |
 | DIVISLAB | WATCH | Pullback | 76 | risk: market regime: no new longs |
-| ADANIPORTS | WATCH | Pullback | 76 | risk: market regime: no new longs |
 | CPPLUS | WATCH | Pullback | 75 | risk: market regime: no new longs |
 | PNBHOUSING | WATCH | Pullback | 73 | risk: market regime: no new longs |
 | PAYTM | WATCH | Pullback | 68 | earnings blackout: results on 2026-10-26 |
+| ADANIPORTS | WATCH | Pullback | 68 | earnings blackout: results on 2026-10-28 |
 | HAL | WATCH | Pre-Breakout | 66 | risk: market regime: no new longs |
 
 ## Strongest sectors
@@ -65,6 +65,6 @@ _No setups passed every gate today. Cash is a position._
 - VEDPOWER: insufficient_history:90<220
 
 ---
-Sources: Yahoo Finance (adjusted daily OHLCV, fundamentals, calendar), prefetched history + live refresh of 487 liquid stocks at 19:40:44 IST, NSE bhavcopy 2026-10-22 (close cross-check), 8 clearly illiquid stocks skipped before indicators, pandas-ta-classic indicator confluence
+Sources: Yahoo Finance (adjusted daily OHLCV, fundamentals, calendar), NSE bhavcopy 2026-10-22 (close cross-check), setups from last completed session; today's live candle used only for status (494 symbols), 8 clearly illiquid stocks skipped before indicators, pandas-ta-classic indicator confluence
 
 > Research output only — not investment advice and not an order. Verify prices, results dates and liquidity before trading; size positions to your own risk tolerance.
