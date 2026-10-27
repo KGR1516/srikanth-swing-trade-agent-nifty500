@@ -1,8 +1,8 @@
 # Swing Trade Agent — setups for the session after 2026-10-26
 
-_Generated 2026-10-26 21:03 IST · Universe: Nifty 500 (496 stocks) · Capital ₹500,000_
+_Generated 2026-10-27 15:33 IST · Universe: Nifty 500 (496 stocks) · Capital ₹500,000_
 
-**Afternoon run 21:02 IST — PROVISIONAL: today's candle is not final until 15:30**
+**Morning run 15:33 IST — setups from the 2026-10-26 close, with live status today**
 
 ## Market regime: 🔴 BEARISH (risk × 0)
 
@@ -23,20 +23,20 @@ _No setups passed every gate today. Cash is a position._
 | COFORGE | WATCH | Breakout | 94 | risk: market regime: no new longs |
 | GABRIEL | WATCH | Pullback | 86 | risk: market regime: no new longs |
 | UNIONBANK | WATCH | Pre-Breakout | 85 | risk: market regime: no new longs |
-| ACUTAAS | WATCH | Pre-Breakout | 83 | risk: market regime: no new longs |
 | PETRONET | WATCH | Pre-Breakout | 83 | risk: market regime: no new longs |
-| SANSERA | WATCH | Pullback | 83 | risk: market regime: no new longs |
 | ICICIBANK | WATCH | Pre-Breakout | 82 | risk: market regime: no new longs |
 | ANANDRATHI | WATCH | Pre-Breakout | 82 | risk: market regime: no new longs |
+| ACUTAAS | WATCH | Pre-Breakout | 81 | risk: market regime: no new longs |
+| SANSERA | WATCH | Pullback | 80 | risk: market regime: no new longs |
 | ETERNAL | WATCH | Pullback | 78 | risk: market regime: no new longs |
 | ADANIPORTS | WATCH | Pullback | 78 | earnings blackout: results on 2026-10-28 |
-| ATHERENERG | WATCH | Breakout | 77 | risk: market regime: no new longs |
 | DIVISLAB | WATCH | Pullback | 75 | risk: market regime: no new longs |
 | LAURUSLABS | WATCH | Pre-Breakout | 74 | earnings blackout: results on 2026-10-29 |
+| ATHERENERG | WATCH | Breakout | 72 | risk: market regime: no new longs |
 | SHYAMMETL | WATCH | Pullback | 70 | risk: market regime: no new longs |
+| PAYTM | WATCH | Pullback | 70 | risk: market regime: no new longs |
 | DLF | WATCH | Pullback | 70 | risk: market regime: no new longs |
 | KARURVYSYA | WATCH | Pullback | 67 | risk: market regime: no new longs |
-| PAYTM | WATCH | Pullback | 65 | earnings blackout: results on 2026-10-26 |
 
 ## Strongest sectors
 
@@ -56,7 +56,7 @@ _No setups passed every gate today. Cash is a position._
 - DUMMYHEG: no_data_from_provider
 - FRACTAL: insufficient_history:170<220
 - HEGAM: extreme_move:62.6%_on_2026-09-07 (unadjusted split/bonus?)
-- ICICILIFE: insufficient_history:6<220
+- ICICILIFE: insufficient_history:7<220
 - ICICIAMC: insufficient_history:208<220
 - MEESHO: insufficient_history:215<220
 - POLICYBZR: extreme_move:36.0%_on_2026-09-24 (unadjusted split/bonus?)
@@ -68,6 +68,6 @@ _No setups passed every gate today. Cash is a position._
 - VEDPOWER: insufficient_history:92<220
 
 ---
-Sources: Yahoo Finance (adjusted daily OHLCV, fundamentals, calendar), prefetched history + live refresh of 487 liquid stocks at 21:03:31 IST, NSE bhavcopy 2026-10-26 (close cross-check), 8 clearly illiquid stocks skipped before indicators, pandas-ta-classic indicator confluence
+Sources: Yahoo Finance (adjusted daily OHLCV, fundamentals, calendar), NSE bhavcopy 2026-10-26 (close cross-check), setups from last completed session; today's live candle used only for status (495 symbols), 8 clearly illiquid stocks skipped before indicators, pandas-ta-classic indicator confluence
 
 > Research output only — not investment advice and not an order. Verify prices, results dates and liquidity before trading; size positions to your own risk tolerance.
