@@ -1,8 +1,8 @@
 # Swing Trade Agent — setups for the session after 2026-10-28
 
-_Generated 2026-10-28 16:20 IST · Universe: Nifty 500 (496 stocks) · Capital ₹500,000_
+_Generated 2026-10-28 21:04 IST · Universe: Nifty 500 (496 stocks) · Capital ₹500,000_
 
-**Morning run 16:19 IST — setups from the 2026-10-28 close, with live status today**
+**Afternoon run 21:03 IST — PROVISIONAL: today's candle is not final until 15:30**
 
 ## Market regime: 🔴 BEARISH (risk × 0)
 
@@ -10,7 +10,7 @@ _Generated 2026-10-28 16:20 IST · Universe: Nifty 500 (496 stocks) · Capital �
 - Nifty below 50-EMA, below 200-EMA; 50-EMA falling.
 - Breadth: 22% of universe above 50-EMA.
 - Bearish regime → no new long setups; watchlist only.
-- Verdicts: BUY NOW 0 · BUY 0 · WATCH 18 · AVOID 0 · SKIP 455
+- Verdicts: BUY NOW 0 · BUY 0 · WATCH 18 · AVOID 0 · SKIP 454
 
 ## Next-session setups (0)
 
@@ -21,16 +21,16 @@ _No setups passed every gate today. Cash is a position._
 | Symbol | Action | Setup | Score | Why not a setup |
 |---|---|---|---:|---|
 | GESHIP | WATCH | Pre-Breakout | 93 | risk: market regime: no new longs |
-| UNIONBANK | WATCH | Pre-Breakout | 88 | risk: market regime: no new longs |
+| UNIONBANK | WATCH | Pre-Breakout | 89 | risk: market regime: no new longs |
 | SONACOMS | WATCH | Breakout | 88 | risk: market regime: no new longs |
 | DIVISLAB | WATCH | Pre-Breakout | 88 | risk: market regime: no new longs |
 | HAL | WATCH | Pullback | 85 | risk: market regime: no new longs |
 | APLAPOLLO | WATCH | Pre-Breakout | 84 | risk: market regime: no new longs |
 | ICICIBANK | WATCH | Pre-Breakout | 83 | risk: market regime: no new longs |
+| NYKAA | WATCH | Pre-Breakout | 83 | risk: market regime: no new longs |
 | CPPLUS | WATCH | Pullback | 83 | risk: market regime: no new longs |
-| NYKAA | WATCH | Pre-Breakout | 82 | risk: market regime: no new longs |
 | WELCORP | WATCH | Pullback | 81 | risk: market regime: no new longs |
-| WELSPUNLIV | WATCH | Pullback | 80 | risk: market regime: no new longs |
+| WELSPUNLIV | WATCH | Pullback | 81 | risk: market regime: no new longs |
 | ADANIPORTS | WATCH | Pullback | 80 | earnings blackout: results on 2026-10-28 |
 | PWL | WATCH | Pullback | 78 | risk: market regime: no new longs |
 | TVSMOTOR | WATCH | Breakout | 77 | earnings blackout: results on 2026-10-28 |
@@ -49,7 +49,7 @@ _No setups passed every gate today. Cash is a position._
 | Telecommunication | -2.0 | 38 | 85 |
 | Services | -1.6 | 31 | 80 |
 
-## Data quality — 15 excluded
+## Data quality — 16 excluded
 
 - BHARATCOAL: insufficient_history:191<220
 - CMPDI: insufficient_history:144<220
@@ -57,6 +57,7 @@ _No setups passed every gate today. Cash is a position._
 - DUMMYHEG: no_data_from_provider
 - FRACTAL: insufficient_history:172<220
 - HEGAM: extreme_move:62.6%_on_2026-09-07 (unadjusted split/bonus?)
+- ICICILIFE: insufficient_history:10<220
 - ICICIAMC: insufficient_history:210<220
 - MEESHO: insufficient_history:217<220
 - POLICYBZR: extreme_move:36.0%_on_2026-09-24 (unadjusted split/bonus?)
@@ -68,6 +69,6 @@ _No setups passed every gate today. Cash is a position._
 - VEDPOWER: insufficient_history:94<220
 
 ---
-Sources: Yahoo Finance (adjusted daily OHLCV, fundamentals, calendar), NSE bhavcopy 2026-10-27 (close cross-check), 8 clearly illiquid stocks skipped before indicators, pandas-ta-classic indicator confluence
+Sources: Yahoo Finance (adjusted daily OHLCV, fundamentals, calendar), prefetched history + live refresh of 487 liquid stocks at 21:04:31 IST, NSE bhavcopy 2026-10-28 (close cross-check), 8 clearly illiquid stocks skipped before indicators, pandas-ta-classic indicator confluence
 
 > Research output only — not investment advice and not an order. Verify prices, results dates and liquidity before trading; size positions to your own risk tolerance.
