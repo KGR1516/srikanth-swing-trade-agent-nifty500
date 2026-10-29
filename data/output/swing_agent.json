@@ -1,13 +1,14 @@
 {
   "as_of": "2026-10-29",
-  "generated_at": "2026-10-29 16:36 IST",
-  "session": "morning",
-  "session_label": "Morning run 16:35 IST — setups from the 2026-10-29 close, with live status today",
+  "generated_at": "2026-10-29 21:11 IST",
+  "session": "afternoon",
+  "session_label": "Afternoon run 21:10 IST — PROVISIONAL: today's candle is not final until 15:30",
   "capital": 500000.0,
   "universe_size": 496,
   "universe_name": "Nifty 500",
   "data_sources": [
     "Yahoo Finance (adjusted daily OHLCV, fundamentals, calendar)",
+    "prefetched history + live refresh of 486 liquid stocks at 21:11:44 IST",
     "NSE bhavcopy 2026-10-29 (close cross-check)",
     "9 clearly illiquid stocks skipped before indicators",
     "pandas-ta-classic indicator confluence"
@@ -150,7 +151,7 @@
         "eps_growth_pct": 159.4,
         "profit_margin_pct": 60.307,
         "pe": 6.1807494,
-        "market_cap_cr": 22201.6176128,
+        "market_cap_cr": 22187.229184,
         "trailing_eps": 261.91,
         "loss_making": false
       },
@@ -434,7 +435,7 @@
         "eps_growth_pct": 50.2,
         "profit_margin_pct": 5.819,
         "pe": 53.134697,
-        "market_cap_cr": 203396.8349184,
+        "market_cap_cr": null,
         "trailing_eps": 80.55,
         "loss_making": false
       },
@@ -580,9 +581,9 @@
         "revenue_growth_pct": 34.5,
         "eps_growth_pct": 25.3,
         "profit_margin_pct": 5.239999699999999,
-        "pe": 47.582916,
+        "pe": 46.543682,
         "market_cap_cr": 60946.0158464,
-        "trailing_eps": 46.13,
+        "trailing_eps": 47.16,
         "loss_making": false
       },
       "events": {
@@ -852,9 +853,9 @@
         "revenue_growth_pct": 15.7,
         "eps_growth_pct": 14.799999999999999,
         "profit_margin_pct": 5.5159997,
-        "pe": 88.11414,
+        "pe": 87.03432,
         "market_cap_cr": 19865.0150912,
-        "trailing_eps": 8.06,
+        "trailing_eps": 8.16,
         "loss_making": false
       },
       "events": {
@@ -871,7 +872,7 @@
       },
       "risks": [
         "High volatility (ATR 4.2% of price).",
-        "Rich valuation: P/E 88 > 60 — less margin for error on bad news."
+        "Rich valuation: P/E 87 > 60 — less margin for error on bad news."
       ],
       "rejected_reason": "risk: market regime: no new longs"
     },
