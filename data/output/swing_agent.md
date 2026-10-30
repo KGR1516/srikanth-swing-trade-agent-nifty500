@@ -1,8 +1,8 @@
 # Swing Trade Agent — setups for the session after 2026-10-30
 
-_Generated 2026-10-30 16:32 IST · Universe: Nifty 500 (496 stocks) · Capital ₹500,000_
+_Generated 2026-10-30 20:55 IST · Universe: Nifty 500 (496 stocks) · Capital ₹500,000_
 
-**Morning run 16:31 IST — setups from the 2026-10-30 close, with live status today**
+**Afternoon run 20:54 IST — PROVISIONAL: today's candle is not final until 15:30**
 
 ## Market regime: 🔴 BEARISH (risk × 0)
 
@@ -10,7 +10,7 @@ _Generated 2026-10-30 16:32 IST · Universe: Nifty 500 (496 stocks) · Capital �
 - Nifty below 50-EMA, below 200-EMA; 50-EMA falling.
 - Breadth: 21% of universe above 50-EMA.
 - Bearish regime → no new long setups; watchlist only.
-- Verdicts: BUY NOW 0 · BUY 0 · WATCH 14 · AVOID 0 · SKIP 456
+- Verdicts: BUY NOW 0 · BUY 0 · WATCH 14 · AVOID 0 · SKIP 457
 
 ## Next-session setups (0)
 
@@ -45,7 +45,7 @@ _No setups passed every gate today. Cash is a position._
 | Telecommunication | -5.5 | 29 | 85 |
 | Textiles | -3.9 | 50 | 80 |
 
-## Data quality — 16 excluded
+## Data quality — 15 excluded
 
 - BHARATCOAL: insufficient_history:193<220
 - CMPDI: insufficient_history:146<220
@@ -53,7 +53,6 @@ _No setups passed every gate today. Cash is a position._
 - DUMMYHEG: no_data_from_provider
 - FRACTAL: insufficient_history:174<220
 - HEGAM: extreme_move:62.6%_on_2026-09-07 (unadjusted split/bonus?)
-- ICICILIFE: insufficient_history:12<220
 - ICICIAMC: insufficient_history:212<220
 - MEESHO: insufficient_history:219<220
 - POLICYBZR: extreme_move:36.0%_on_2026-09-24 (unadjusted split/bonus?)
@@ -65,6 +64,6 @@ _No setups passed every gate today. Cash is a position._
 - VEDPOWER: insufficient_history:96<220
 
 ---
-Sources: Yahoo Finance (adjusted daily OHLCV, fundamentals, calendar), NSE bhavcopy 2026-10-29 (close cross-check), 10 clearly illiquid stocks skipped before indicators, pandas-ta-classic indicator confluence
+Sources: Yahoo Finance (adjusted daily OHLCV, fundamentals, calendar), prefetched history + live refresh of 485 liquid stocks at 20:55:11 IST, NSE bhavcopy 2026-10-30 (close cross-check), 10 clearly illiquid stocks skipped before indicators, pandas-ta-classic indicator confluence
 
 > Research output only — not investment advice and not an order. Verify prices, results dates and liquidity before trading; size positions to your own risk tolerance.
