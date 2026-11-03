@@ -1,13 +1,14 @@
 {
   "as_of": "2026-11-03",
-  "generated_at": "2026-11-03 17:51 IST",
-  "session": "morning",
-  "session_label": "Morning run 17:50 IST — setups from the 2026-11-03 close, with live status today",
+  "generated_at": "2026-11-03 22:11 IST",
+  "session": "afternoon",
+  "session_label": "Afternoon run 22:10 IST — PROVISIONAL: today's candle is not final until 15:30",
   "capital": 500000.0,
   "universe_size": 496,
   "universe_name": "Nifty 500",
   "data_sources": [
     "Yahoo Finance (adjusted daily OHLCV, fundamentals, calendar)",
+    "prefetched history + live refresh of 486 liquid stocks at 22:11:17 IST",
     "NSE bhavcopy 2026-11-03 (close cross-check)",
     "9 clearly illiquid stocks skipped before indicators",
     "pandas-ta-classic indicator confluence"
