@@ -1,8 +1,8 @@
 # Swing Trade Agent — setups for the session after 2026-11-04
 
-_Generated 2026-11-04 18:01 IST · Universe: Nifty 500 (496 stocks) · Capital ₹500,000_
+_Generated 2026-11-04 22:10 IST · Universe: Nifty 500 (496 stocks) · Capital ₹500,000_
 
-**Morning run 18:00 IST — setups from the 2026-11-04 close, with live status today**
+**Afternoon run 22:09 IST — PROVISIONAL: today's candle is not final until 15:30**
 
 ## Market regime: 🟡 NEUTRAL (risk × 0.5)
 
@@ -22,15 +22,6 @@ _Generated 2026-11-04 18:01 IST · Universe: Nifty 500 (496 stocks) · Capital �
 | 4 | **PETRONET** | BUY NOW | Breakout | Unconfirmed | 311.00 | 312.80 | 319.05 | 301.20 | 3.7% | 336.00 (2R) | 347.60 (3R) | 215 | ₹2,494 | 90 |
 | 5 | **HAL** | BUY NOW | Breakout | Unconfirmed | 5,079.10 | 5,103.70 | 5,205.75 | 4,922.30 | 3.5% | 5,466.50 (2R) | 5,647.90 (3R) | 13 | ₹2,358 | 89 |
 | 6 | **MEDANTA** | BUY NOW | Breakout | Unconfirmed | 1,402.00 | 1,428.65 | 1,457.20 | 1,353.05 | 5.3% | 1,579.85 (2R) | 1,655.45 (3R) | 33 | ₹2,495 | 88 |
-
-### Live status today
-
-- **GAIL** — Not triggered — needs ≥ 186.80 (now 186.22)
-- **PERSISTENT** — Not triggered — needs ≥ 6,152.70 (now 6,065.00)
-- **PNB** — Not triggered — needs ≥ 125.55 (now 122.42)
-- **PETRONET** — Not triggered — needs ≥ 312.80 (now 311.00)
-- **HAL** — Not triggered — needs ≥ 5,103.70 (now 5,079.10)
-- **MEDANTA** — Not triggered — needs ≥ 1,428.65 (now 1,402.00)
 
 **Execution rules:** buy-stop at the entry trigger · skip if the open gaps above the “don't chase” price · cancel if not triggered within 2 sessions · exit if T1 isn't hit within 5 sessions · book part at T1, trail the stop to entry.
 
@@ -102,6 +93,6 @@ _Generated 2026-11-04 18:01 IST · Universe: Nifty 500 (496 stocks) · Capital �
 - VEDPOWER: insufficient_history:99<220
 
 ---
-Sources: Yahoo Finance (adjusted daily OHLCV, fundamentals, calendar), NSE bhavcopy 2026-11-04 (close cross-check), 7 clearly illiquid stocks skipped before indicators, pandas-ta-classic indicator confluence
+Sources: Yahoo Finance (adjusted daily OHLCV, fundamentals, calendar), prefetched history + live refresh of 488 liquid stocks at 22:10:01 IST, NSE bhavcopy 2026-11-04 (close cross-check), 7 clearly illiquid stocks skipped before indicators, pandas-ta-classic indicator confluence
 
 > Research output only — not investment advice and not an order. Verify prices, results dates and liquidity before trading; size positions to your own risk tolerance.
