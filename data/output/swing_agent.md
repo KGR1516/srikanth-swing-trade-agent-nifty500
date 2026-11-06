@@ -1,8 +1,8 @@
 # Swing Trade Agent — setups for the session after 2026-11-06
 
-_Generated 2026-11-06 17:57 IST · Universe: Nifty 500 (496 stocks) · Capital ₹500,000_
+_Generated 2026-11-06 21:53 IST · Universe: Nifty 500 (496 stocks) · Capital ₹500,000_
 
-**Morning run 17:57 IST — setups from the 2026-11-06 close, with live status today**
+**Afternoon run 21:52 IST — PROVISIONAL: today's candle is not final until 15:30**
 
 ## Market regime: 🟡 NEUTRAL (risk × 0.5)
 
@@ -23,15 +23,6 @@ _Generated 2026-11-06 17:57 IST · Universe: Nifty 500 (496 stocks) · Capital �
 | 5 | **SHYAMMETL** | BUY NOW | Breakout | Unconfirmed | 1,300.60 | 1,309.70 | 1,335.85 | 1,239.25 | 5.4% | 1,450.60 (2R) | 1,521.05 (3R) | 35 | ₹2,466 | 85 |
 | 6 | **APLAPOLLO** | BUY NOW | Pre-Breakout | — | 2,185.30 | 2,245.10 | 2,290.00 | 2,154.00 | 4.1% | 2,427.30 (2R) | 2,518.40 (3R) | 27 | ₹2,460 | 84 |
 
-### Live status today
-
-- **PNB** — Not triggered — needs ≥ 127.20 (now 126.55)
-- **GLENMARK** — Not triggered — needs ≥ 2,691.50 (now 2,590.00)
-- **UNIONBANK** — Not triggered — needs ≥ 189.40 (now 187.00)
-- **MRPL** — Not triggered — needs ≥ 177.85 (now 175.67)
-- **SHYAMMETL** — Not triggered — needs ≥ 1,309.70 (now 1,300.60)
-- **APLAPOLLO** — Not triggered — needs ≥ 2,245.10 (now 2,185.30)
-
 **Execution rules:** buy-stop at the entry trigger · skip if the open gaps above the “don't chase” price · cancel if not triggered within 2 sessions · exit if T1 isn't hit within 5 sessions · book part at T1, trail the stop to entry.
 
 ### Risk notes
@@ -49,10 +40,10 @@ _Generated 2026-11-06 17:57 IST · Universe: Nifty 500 (496 stocks) · Capital �
 |---|---|---|---:|---|
 | ICICIBANK | WATCH | Breakout | 92 | breakout Extended (RSI ≥ 75 or > 5% above level) — wait for a pullback |
 | BHARTIARTL | WATCH | Breakout | 90 | breakout Extended (RSI ≥ 75 or > 5% above level) — wait for a pullback |
+| MOTILALOFS | WATCH | Breakout | 89 | portfolio: sector cap (2) for Financial Services |
 | MAHABANK | WATCH | Breakout | 89 | portfolio: sector cap (2) for Financial Services |
 | BAJAJ-AUTO | WATCH | Breakout | 86 | relative strength 59 < 65 |
 | FEDERALBNK | WATCH | Pullback | 84 | relative strength 59 < 65 |
-| MOTILALOFS | WATCH | Breakout | 84 | portfolio: sector cap (2) for Financial Services |
 | ABDL | WATCH | Pullback | 83 | portfolio: max open positions (6) reached |
 | KALYANKJIL | WATCH | Breakout | 82 | portfolio: max open positions (6) reached |
 | TITAN | WATCH | Breakout | 81 | portfolio: max open positions (6) reached |
@@ -88,6 +79,6 @@ _Generated 2026-11-06 17:57 IST · Universe: Nifty 500 (496 stocks) · Capital �
 - VEDPOWER: insufficient_history:101<220
 
 ---
-Sources: Yahoo Finance (adjusted daily OHLCV, fundamentals, calendar), NSE bhavcopy 2026-11-06 (close cross-check), 7 clearly illiquid stocks skipped before indicators, pandas-ta-classic indicator confluence
+Sources: Yahoo Finance (adjusted daily OHLCV, fundamentals, calendar), prefetched history + live refresh of 488 liquid stocks at 21:53:08 IST, NSE bhavcopy 2026-11-06 (close cross-check), 7 clearly illiquid stocks skipped before indicators, pandas-ta-classic indicator confluence
 
 > Research output only — not investment advice and not an order. Verify prices, results dates and liquidity before trading; size positions to your own risk tolerance.

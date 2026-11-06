@@ -1,13 +1,14 @@
 {
   "as_of": "2026-11-06",
-  "generated_at": "2026-11-06 17:57 IST",
-  "session": "morning",
-  "session_label": "Morning run 17:57 IST — setups from the 2026-11-06 close, with live status today",
+  "generated_at": "2026-11-06 21:53 IST",
+  "session": "afternoon",
+  "session_label": "Afternoon run 21:52 IST — PROVISIONAL: today's candle is not final until 15:30",
   "capital": 500000.0,
   "universe_size": 496,
   "universe_name": "Nifty 500",
   "data_sources": [
     "Yahoo Finance (adjusted daily OHLCV, fundamentals, calendar)",
+    "prefetched history + live refresh of 488 liquid stocks at 21:53:08 IST",
     "NSE bhavcopy 2026-11-06 (close cross-check)",
     "7 clearly illiquid stocks skipped before indicators",
     "pandas-ta-classic indicator confluence"
@@ -81,8 +82,8 @@
         "conf_volume": 100.0,
         "indicators_computed": 403
       },
-      "today_status": "Not triggered — needs ≥ 127.20 (now 126.55)",
-      "today_last": 126.55000305175781,
+      "today_status": "",
+      "today_last": null,
       "status": "RESEARCH SETUP",
       "evidence": [
         {
@@ -339,8 +340,8 @@
         "conf_volume": 100.0,
         "indicators_computed": 403
       },
-      "today_status": "Not triggered — needs ≥ 2,691.50 (now 2,590.00)",
-      "today_last": 2590.0,
+      "today_status": "",
+      "today_last": null,
       "status": "RESEARCH SETUP",
       "evidence": [
         {
@@ -604,8 +605,8 @@
         "conf_volume": 83.3,
         "indicators_computed": 403
       },
-      "today_status": "Not triggered — needs ≥ 189.40 (now 187.00)",
-      "today_last": 187.0,
+      "today_status": "",
+      "today_last": null,
       "status": "RESEARCH SETUP",
       "evidence": [
         {
@@ -862,8 +863,8 @@
         "conf_volume": 83.3,
         "indicators_computed": 403
       },
-      "today_status": "Not triggered — needs ≥ 177.85 (now 175.67)",
-      "today_last": 175.6699981689453,
+      "today_status": "",
+      "today_last": null,
       "status": "RESEARCH SETUP",
       "evidence": [
         {
@@ -1113,8 +1114,8 @@
         "conf_volume": 100.0,
         "indicators_computed": 403
       },
-      "today_status": "Not triggered — needs ≥ 1,309.70 (now 1,300.60)",
-      "today_last": 1300.5999755859375,
+      "today_status": "",
+      "today_last": null,
       "status": "RESEARCH SETUP",
       "evidence": [
         {
@@ -1371,8 +1372,8 @@
         "conf_volume": 44.4,
         "indicators_computed": 403
       },
-      "today_status": "Not triggered — needs ≥ 2,245.10 (now 2,185.30)",
-      "today_last": 2185.300048828125,
+      "today_status": "",
+      "today_last": null,
       "status": "RESEARCH SETUP",
       "evidence": [
         {
@@ -1726,6 +1727,79 @@
       "rejected_reason": "breakout Extended (RSI ≥ 75 or > 5% above level) — wait for a pullback"
     },
     {
+      "symbol": "MOTILALOFS",
+      "sector": "Financial Services",
+      "as_of": "2026-11-06",
+      "close": 1102.0,
+      "setup_type": "Breakout",
+      "technical_score": 95.7,
+      "rs_percentile": 90.6,
+      "rs_excess_pct": 24.49,
+      "sector_score": 70.0,
+      "fundamental_score": 80.0,
+      "event_score": 100.0,
+      "confluence_score": 88.6,
+      "penalty": 0.0,
+      "final_score": 89.3,
+      "action": "WATCH",
+      "breakout_grade": "Unconfirmed",
+      "live_status": "Held",
+      "follow_through": "Partial",
+      "loss_making": false,
+      "failed_breakout": false,
+      "confluence": {
+        "confluence_score": 88.6,
+        "conf_trend": 92.3,
+        "conf_momentum": 69.1,
+        "conf_overlap": 98.5,
+        "conf_volume": 94.4,
+        "indicators_computed": 403
+      },
+      "score_breakdown": {
+        "technical_pts": 32.5,
+        "relative_strength_pts": 15.4,
+        "fundamental_pts": 13.6,
+        "sector_pts": 6.0,
+        "event_pts": 8.5,
+        "confluence_pts": 13.3,
+        "weighted": 89.3,
+        "penalty": 0.0,
+        "final": 89.3
+      },
+      "fundamentals": {
+        "roe_pct": 18.935,
+        "debt_to_equity": 1.72269,
+        "revenue_growth_pct": 67.5,
+        "eps_growth_pct": 196.1,
+        "profit_margin_pct": 27.955999999999996,
+        "pe": 25.039764,
+        "market_cap_cr": 66448.0907264,
+        "trailing_eps": 44.01,
+        "loss_making": false
+      },
+      "events": {
+        "next_earnings": null,
+        "ex_dividend": "2026-01-30"
+      },
+      "metrics": {
+        "breakout_level": 1095.85,
+        "extension_pct": 0.56,
+        "volume_ratio": 1.81,
+        "breakout_grade": "Unconfirmed",
+        "clears_60d_close_high": true,
+        "rsi": 63.6,
+        "adx": 18.1,
+        "pct_of_52w_high": 99.7,
+        "rs_line_new_high": false,
+        "rs_excess_20d_pct": -3.94
+      },
+      "risks": [
+        "Breakout volume is adequate but not exceptional (< 2× average).",
+        "High volatility (ATR 4.0% of price)."
+      ],
+      "rejected_reason": "portfolio: sector cap (2) for Financial Services"
+    },
+    {
       "symbol": "MAHABANK",
       "sector": "Financial Services",
       "as_of": "2026-11-06",
@@ -1938,79 +2012,6 @@
         "Relative strength percentile 59 < 65 — lagging the market."
       ],
       "rejected_reason": "relative strength 59 < 65"
-    },
-    {
-      "symbol": "MOTILALOFS",
-      "sector": "Financial Services",
-      "as_of": "2026-11-06",
-      "close": 1102.0,
-      "setup_type": "Breakout",
-      "technical_score": 95.7,
-      "rs_percentile": 90.6,
-      "rs_excess_pct": 24.49,
-      "sector_score": 70.0,
-      "fundamental_score": 50.0,
-      "event_score": 100.0,
-      "confluence_score": 88.6,
-      "penalty": 0.0,
-      "final_score": 84.2,
-      "action": "WATCH",
-      "breakout_grade": "Unconfirmed",
-      "live_status": "Held",
-      "follow_through": "Partial",
-      "loss_making": false,
-      "failed_breakout": false,
-      "confluence": {
-        "confluence_score": 88.6,
-        "conf_trend": 92.3,
-        "conf_momentum": 69.1,
-        "conf_overlap": 98.5,
-        "conf_volume": 94.4,
-        "indicators_computed": 403
-      },
-      "score_breakdown": {
-        "technical_pts": 32.5,
-        "relative_strength_pts": 15.4,
-        "fundamental_pts": 8.5,
-        "sector_pts": 6.0,
-        "event_pts": 8.5,
-        "confluence_pts": 13.3,
-        "weighted": 84.2,
-        "penalty": 0.0,
-        "final": 84.2
-      },
-      "fundamentals": {
-        "roe_pct": null,
-        "debt_to_equity": null,
-        "revenue_growth_pct": null,
-        "eps_growth_pct": null,
-        "profit_margin_pct": null,
-        "pe": 25.039764,
-        "market_cap_cr": 66448.0907264,
-        "trailing_eps": null,
-        "loss_making": false
-      },
-      "events": {
-        "next_earnings": null,
-        "ex_dividend": "2026-01-30"
-      },
-      "metrics": {
-        "breakout_level": 1095.85,
-        "extension_pct": 0.56,
-        "volume_ratio": 1.81,
-        "breakout_grade": "Unconfirmed",
-        "clears_60d_close_high": true,
-        "rsi": 63.6,
-        "adx": 18.1,
-        "pct_of_52w_high": 99.7,
-        "rs_line_new_high": false,
-        "rs_excess_20d_pct": -3.94
-      },
-      "risks": [
-        "Breakout volume is adequate but not exceptional (< 2× average).",
-        "High volatility (ATR 4.0% of price)."
-      ],
-      "rejected_reason": "portfolio: sector cap (2) for Financial Services"
     },
     {
       "symbol": "ABDL",
@@ -2840,11 +2841,11 @@
       "status": "portfolio: sector cap (2) for Financial Services",
       "rs_percentile": 90.6,
       "sector_score": 70.0,
-      "fundamental_score": 50.0,
+      "fundamental_score": 80.0,
       "event_score": 100.0,
       "confluence_score": 88.6,
       "penalty": 0.0,
-      "final_score": 84.2,
+      "final_score": 89.3,
       "action": "WATCH"
     },
     {
