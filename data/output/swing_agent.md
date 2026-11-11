@@ -1,8 +1,8 @@
 # Swing Trade Agent — setups for the session after 2026-11-11
 
-_Generated 2026-11-11 17:39 IST · Universe: Nifty 500 (496 stocks) · Capital ₹500,000_
+_Generated 2026-11-11 22:11 IST · Universe: Nifty 500 (496 stocks) · Capital ₹500,000_
 
-**Morning run 17:38 IST — setups from the 2026-11-11 close, with live status today**
+**Afternoon run 22:11 IST — PROVISIONAL: today's candle is not final until 15:30**
 
 ## Market regime: 🟢 BULLISH (risk × 1)
 
@@ -21,15 +21,6 @@ _Generated 2026-11-11 17:39 IST · Universe: Nifty 500 (496 stocks) · Capital �
 | 4 | **CHENNPETRO** | BUY NOW | Pullback | — | 1,464.30 | 1,503.60 | 1,533.65 | 1,392.50 | 7.4% | 1,725.80 (2R) | 1,836.90 (3R) | 45 | ₹5,000 | 86 |
 | 5 | **MOTHERSON** | BUY NOW | Breakout | Unconfirmed | 169.69 | 170.30 | 173.70 | 161.50 | 5.2% | 187.90 (2R) | 196.70 (3R) | 440 | ₹3,872 | 83 |
 | 6 | **APLAPOLLO** | BUY NOW | Pre-Breakout | — | 2,198.00 | 2,244.75 | 2,289.60 | 2,158.85 | 3.8% | 2,416.55 (2R) | 2,502.45 (3R) | 33 | ₹2,835 | 81 |
-
-### Live status today
-
-- **UNIONBANK** — Not triggered — needs ≥ 202.70 (now 202.19)
-- **MAHABANK** — Not triggered — needs ≥ 91.40 (now 90.20)
-- **ENGINERSIN** — Not triggered — needs ≥ 325.15 (now 311.20)
-- **CHENNPETRO** — Not triggered — needs ≥ 1,503.60 (now 1,464.30)
-- **MOTHERSON** — Not triggered — needs ≥ 170.30 (now 169.69)
-- **APLAPOLLO** — Not triggered — needs ≥ 2,244.75 (now 2,198.00)
 
 **Execution rules:** buy-stop at the entry trigger · skip if the open gaps above the “don't chase” price · cancel if not triggered within 2 sessions · exit if T1 isn't hit within 5 sessions · book part at T1, trail the stop to entry.
 
@@ -91,6 +82,6 @@ _Generated 2026-11-11 17:39 IST · Universe: Nifty 500 (496 stocks) · Capital �
 - VEDPOWER: insufficient_history:103<220
 
 ---
-Sources: Yahoo Finance (adjusted daily OHLCV, fundamentals, calendar), NSE bhavcopy 2026-11-11 (close cross-check), 7 clearly illiquid stocks skipped before indicators, pandas-ta-classic indicator confluence
+Sources: Yahoo Finance (adjusted daily OHLCV, fundamentals, calendar), prefetched history + live refresh of 488 liquid stocks at 22:11:43 IST, NSE bhavcopy 2026-11-11 (close cross-check), 7 clearly illiquid stocks skipped before indicators, pandas-ta-classic indicator confluence
 
 > Research output only — not investment advice and not an order. Verify prices, results dates and liquidity before trading; size positions to your own risk tolerance.
