@@ -1,13 +1,14 @@
 {
   "as_of": "2026-11-13",
-  "generated_at": "2026-11-13 18:06 IST",
-  "session": "morning",
-  "session_label": "Morning run 18:06 IST — setups from the 2026-11-13 close, with live status today",
+  "generated_at": "2026-11-13 22:20 IST",
+  "session": "afternoon",
+  "session_label": "Afternoon run 22:19 IST — PROVISIONAL: today's candle is not final until 15:30",
   "capital": 500000.0,
   "universe_size": 496,
   "universe_name": "Nifty 500",
   "data_sources": [
     "Yahoo Finance (adjusted daily OHLCV, fundamentals, calendar)",
+    "prefetched history + live refresh of 488 liquid stocks at 22:20:19 IST",
     "NSE bhavcopy 2026-11-13 (close cross-check)",
     "7 clearly illiquid stocks skipped before indicators",
     "pandas-ta-classic indicator confluence"
@@ -80,8 +81,8 @@
         "conf_volume": 100.0,
         "indicators_computed": 403
       },
-      "today_status": "Not triggered — needs ≥ 354.35 (now 349.00)",
-      "today_last": 349.0,
+      "today_status": "",
+      "today_last": null,
       "status": "RESEARCH SETUP",
       "evidence": [
         {
@@ -340,8 +341,8 @@
         "conf_volume": 55.6,
         "indicators_computed": 403
       },
-      "today_status": "Not triggered — needs ≥ 1,785.35 (now 1,745.40)",
-      "today_last": 1745.4000244140625,
+      "today_status": "",
+      "today_last": null,
       "status": "RESEARCH SETUP",
       "evidence": [
         {
@@ -592,8 +593,8 @@
         "conf_volume": 94.4,
         "indicators_computed": 403
       },
-      "today_status": "Not triggered — needs ≥ 2,269.95 (now 2,251.60)",
-      "today_last": 2251.60009765625,
+      "today_status": "",
+      "today_last": null,
       "status": "RESEARCH SETUP",
       "evidence": [
         {
@@ -850,8 +851,8 @@
         "conf_volume": 66.7,
         "indicators_computed": 403
       },
-      "today_status": "Not triggered — needs ≥ 293.20 (now 291.25)",
-      "today_last": 291.25,
+      "today_status": "",
+      "today_last": null,
       "status": "RESEARCH SETUP",
       "evidence": [
         {
@@ -1101,8 +1102,8 @@
         "conf_volume": 38.9,
         "indicators_computed": 403
       },
-      "today_status": "Not triggered — needs ≥ 1,533.70 (now 1,518.00)",
-      "today_last": 1518.0,
+      "today_status": "",
+      "today_last": null,
       "status": "RESEARCH SETUP",
       "evidence": [
         {
@@ -1352,8 +1353,8 @@
         "conf_volume": 55.6,
         "indicators_computed": 403
       },
-      "today_status": "Not triggered — needs ≥ 1,118.05 (now 1,104.90)",
-      "today_last": 1104.9000244140625,
+      "today_status": "",
+      "today_last": null,
       "status": "RESEARCH SETUP",
       "evidence": [
         {
@@ -1519,7 +1520,7 @@
         },
         {
           "rule": "fund:P/E",
-          "value": 32.52,
+          "value": 31.38,
           "threshold": "<= 80",
           "passed": true,
           "note": ""
@@ -1819,7 +1820,7 @@
         "eps_growth_pct": 63.800000000000004,
         "profit_margin_pct": 15.995999999999999,
         "pe": 23.1442,
-        "market_cap_cr": 298162.1661696,
+        "market_cap_cr": 297916.8256,
         "trailing_eps": 468.8,
         "loss_making": false
       },
