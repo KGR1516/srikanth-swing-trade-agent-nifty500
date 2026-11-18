@@ -1,13 +1,14 @@
 {
   "as_of": "2026-11-18",
-  "generated_at": "2026-11-18 18:55 IST",
-  "session": "morning",
-  "session_label": "Morning run 18:55 IST — setups from the 2026-11-18 close, with live status today",
+  "generated_at": "2026-11-18 23:10 IST",
+  "session": "afternoon",
+  "session_label": "Afternoon run 23:09 IST — PROVISIONAL: today's candle is not final until 15:30",
   "capital": 500000.0,
   "universe_size": 496,
   "universe_name": "Nifty 500",
   "data_sources": [
     "Yahoo Finance (adjusted daily OHLCV, fundamentals, calendar)",
+    "prefetched history + live refresh of 487 liquid stocks at 23:10:36 IST",
     "NSE bhavcopy 2026-11-18 (close cross-check)",
     "7 clearly illiquid stocks skipped before indicators",
     "pandas-ta-classic indicator confluence"
@@ -81,8 +82,8 @@
         "conf_volume": 94.4,
         "indicators_computed": 403
       },
-      "today_status": "Not triggered — needs ≥ 191.75 (now 190.00)",
-      "today_last": 190.0,
+      "today_status": "",
+      "today_last": null,
       "status": "RESEARCH SETUP",
       "evidence": [
         {
@@ -347,8 +348,8 @@
         "conf_volume": 88.9,
         "indicators_computed": 403
       },
-      "today_status": "Not triggered — needs ≥ 706.75 (now 696.35)",
-      "today_last": 696.3499755859375,
+      "today_status": "",
+      "today_last": null,
       "status": "RESEARCH SETUP",
       "evidence": [
         {
@@ -612,8 +613,8 @@
         "conf_volume": 44.4,
         "indicators_computed": 403
       },
-      "today_status": "Not triggered — needs ≥ 2,413.85 (now 2,375.10)",
-      "today_last": 2375.10009765625,
+      "today_status": "",
+      "today_last": null,
       "status": "RESEARCH SETUP",
       "evidence": [
         {
@@ -864,8 +865,8 @@
         "conf_volume": 94.4,
         "indicators_computed": 403
       },
-      "today_status": "Not triggered — needs ≥ 2,164.70 (now 2,123.20)",
-      "today_last": 2123.199951171875,
+      "today_status": "",
+      "today_last": null,
       "status": "RESEARCH SETUP",
       "evidence": [
         {
@@ -1125,8 +1126,8 @@
         "conf_volume": 61.1,
         "indicators_computed": 403
       },
-      "today_status": "Not triggered — needs ≥ 417.75 (now 409.70)",
-      "today_last": 409.70001220703125,
+      "today_status": "",
+      "today_last": null,
       "status": "RESEARCH SETUP",
       "evidence": [
         {
@@ -1376,8 +1377,8 @@
         "conf_volume": 44.4,
         "indicators_computed": 403
       },
-      "today_status": "Not triggered — needs ≥ 795.80 (now 788.05)",
-      "today_last": 788.0499877929688,
+      "today_status": "",
+      "today_last": null,
       "status": "RESEARCH SETUP",
       "evidence": [
         {
