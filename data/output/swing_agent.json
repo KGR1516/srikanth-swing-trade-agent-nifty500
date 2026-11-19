@@ -1,13 +1,14 @@
 {
   "as_of": "2026-11-19",
-  "generated_at": "2026-11-19 19:23 IST",
-  "session": "morning",
-  "session_label": "Morning run 19:22 IST — setups from the 2026-11-19 close, with live status today",
+  "generated_at": "2026-11-19 23:16 IST",
+  "session": "afternoon",
+  "session_label": "Afternoon run 23:15 IST — PROVISIONAL: today's candle is not final until 15:30",
   "capital": 500000.0,
   "universe_size": 496,
   "universe_name": "Nifty 500",
   "data_sources": [
     "Yahoo Finance (adjusted daily OHLCV, fundamentals, calendar)",
+    "prefetched history + live refresh of 488 liquid stocks at 23:16:32 IST",
     "NSE bhavcopy 2026-11-19 (close cross-check)",
     "6 clearly illiquid stocks skipped before indicators",
     "pandas-ta-classic indicator confluence"
@@ -80,8 +81,8 @@
         "conf_volume": 94.4,
         "indicators_computed": 403
       },
-      "today_status": "Not triggered — needs ≥ 765.70 (now 753.20)",
-      "today_last": 753.2000122070312,
+      "today_status": "",
+      "today_last": null,
       "status": "RESEARCH SETUP",
       "evidence": [
         {
@@ -336,8 +337,8 @@
         "conf_volume": 100.0,
         "indicators_computed": 403
       },
-      "today_status": "Not triggered — needs ≥ 2,205.55 (now 2,187.00)",
-      "today_last": 2187.0,
+      "today_status": "",
+      "today_last": null,
       "status": "RESEARCH SETUP",
       "evidence": [
         {
@@ -596,8 +597,8 @@
         "conf_volume": 61.1,
         "indicators_computed": 403
       },
-      "today_status": "Not triggered — needs ≥ 8,094.10 (now 8,058.50)",
-      "today_last": 8058.5,
+      "today_status": "",
+      "today_last": null,
       "status": "RESEARCH SETUP",
       "evidence": [
         {
@@ -863,8 +864,8 @@
         "conf_volume": 94.4,
         "indicators_computed": 403
       },
-      "today_status": "Not triggered — needs ≥ 87.00 (now 86.05)",
-      "today_last": 86.05000305175781,
+      "today_status": "",
+      "today_last": null,
       "status": "RESEARCH SETUP",
       "evidence": [
         {
@@ -1129,8 +1130,8 @@
         "conf_volume": 50.0,
         "indicators_computed": 403
       },
-      "today_status": "Not triggered — needs ≥ 2,413.75 (now 2,369.60)",
-      "today_last": 2369.60009765625,
+      "today_status": "",
+      "today_last": null,
       "status": "RESEARCH SETUP",
       "evidence": [
         {
@@ -1330,176 +1331,169 @@
     },
     {
       "rank": 6,
-      "symbol": "URBANCO",
-      "sector": "Consumer Services",
+      "symbol": "GRAPHITE",
+      "sector": "Capital Goods",
       "as_of": "2026-11-19",
-      "setup_type": "Breakout",
-      "close": 176.05,
-      "entry_trigger": 178.8,
-      "entry_limit": 182.35,
-      "stop": 167.25,
-      "target1": 201.9,
-      "target2": 213.45,
-      "risk_per_share": 11.55,
-      "stop_pct": 6.46,
+      "setup_type": "Pullback",
+      "close": 785.25,
+      "entry_trigger": 789.55,
+      "entry_limit": 805.3,
+      "stop": 749.55,
+      "target1": 869.55,
+      "target2": 909.55,
+      "risk_per_share": 40.0,
+      "stop_pct": 5.07,
       "rr_t1": 2.0,
       "rr_t2": 3.0,
-      "quantity": 419,
-      "position_value": 74917.2,
-      "capital_at_risk": 4839.45,
-      "room_to_52w_high_r": 0.45,
+      "quantity": 94,
+      "position_value": 74217.7,
+      "capital_at_risk": 3760.0,
+      "room_to_52w_high_r": 2.12,
       "valid_sessions": 2,
       "time_stop_sessions": 5,
       "technical_score": 95.7,
-      "rs_percentile": 96.2,
-      "sector_score": 30.0,
-      "fundamental_score": 50.0,
+      "rs_percentile": 73.2,
+      "sector_score": 5.0,
+      "fundamental_score": 75.0,
       "event_score": 100.0,
-      "final_score": 75.1,
+      "final_score": 77.8,
       "action": "BUY",
-      "confluence_score": 97.8,
-      "penalty": -8.0,
-      "breakout_grade": "Solid",
-      "live_status": "Held",
+      "confluence_score": 74.0,
+      "penalty": 0.0,
+      "breakout_grade": "",
+      "live_status": "",
       "follow_through": "Partial",
       "score_breakdown": {
         "technical_pts": 32.5,
-        "relative_strength_pts": 16.4,
-        "fundamental_pts": 8.5,
-        "sector_pts": 2.6,
+        "relative_strength_pts": 12.4,
+        "fundamental_pts": 12.8,
+        "sector_pts": 0.4,
         "event_pts": 8.5,
-        "confluence_pts": 14.7,
-        "weighted": 83.1,
-        "penalty": -8.0,
-        "final": 75.1
+        "confluence_pts": 11.1,
+        "weighted": 77.8,
+        "penalty": 0.0,
+        "final": 77.8
       },
       "confluence": {
-        "confluence_score": 97.8,
-        "conf_trend": 100.0,
-        "conf_momentum": 92.7,
-        "conf_overlap": 98.5,
-        "conf_volume": 100.0,
+        "confluence_score": 74.0,
+        "conf_trend": 84.6,
+        "conf_momentum": 80.0,
+        "conf_overlap": 65.2,
+        "conf_volume": 50.0,
         "indicators_computed": 403
       },
-      "today_status": "Not triggered — needs ≥ 178.80 (now 176.05)",
-      "today_last": 176.0500030517578,
+      "today_status": "",
+      "today_last": null,
       "status": "RESEARCH SETUP",
       "evidence": [
         {
           "rule": "liq:min_price",
-          "value": 176.05,
+          "value": 785.25,
           "threshold": ">= 50",
           "passed": true,
           "note": ""
         },
         {
           "rule": "liq:avg_volume_20d",
-          "value": 9403679,
+          "value": 800032,
           "threshold": ">= 250,000",
           "passed": true,
           "note": ""
         },
         {
           "rule": "liq:avg_traded_value_cr",
-          "value": 152.59,
+          "value": 60.32,
           "threshold": ">= 10",
           "passed": true,
           "note": ""
         },
         {
-          "rule": "bo:close_above_20d_high",
-          "value": 1.24,
-          "threshold": "> 0%",
-          "passed": true,
-          "note": ""
-        },
-        {
-          "rule": "bo:volume_ratio",
-          "value": 3.0,
-          "threshold": ">= 1.5",
-          "passed": true,
-          "note": ""
-        },
-        {
-          "rule": "bo:extension_pct",
-          "value": 1.24,
-          "threshold": "<= 5.0%",
-          "passed": true,
-          "note": ""
-        },
-        {
-          "rule": "bo:close_in_upper_range",
-          "value": 0.75,
-          "threshold": ">= 0.5",
-          "passed": true,
-          "note": ""
-        },
-        {
-          "rule": "bo:trend_close>EMA50>EMA200",
+          "rule": "pl:uptrend_EMA20>EMA50>EMA200",
           "value": true,
           "threshold": true,
           "passed": true,
           "note": ""
         },
         {
-          "rule": "bo:clears_60d_closing_high",
-          "value": 181.09,
-          "threshold": "close above",
-          "passed": false,
-          "note": "major level (stock-2)"
+          "rule": "pl:EMA50_rising",
+          "value": 1.02,
+          "threshold": "> 0",
+          "passed": true,
+          "note": ""
+        },
+        {
+          "rule": "pl:dist_from_EMA20_pct",
+          "value": 1.84,
+          "threshold": "<= 2.0%",
+          "passed": true,
+          "note": ""
+        },
+        {
+          "rule": "pl:RSI_cooled",
+          "value": 54.4,
+          "threshold": "40–55",
+          "passed": true,
+          "note": ""
+        },
+        {
+          "rule": "pl:bounce_signal",
+          "value": true,
+          "threshold": true,
+          "passed": true,
+          "note": "up close or strong close in range"
         },
         {
           "rule": "mo:close>EMA20",
-          "value": 176.05,
-          "threshold": 161.77,
+          "value": 785.25,
+          "threshold": 771.04,
           "passed": true,
           "note": ""
         },
         {
           "rule": "mo:EMA20>EMA50",
-          "value": 161.77,
-          "threshold": 158.2,
+          "value": 771.04,
+          "threshold": 762.25,
           "passed": true,
           "note": ""
         },
         {
           "rule": "mo:EMA50>EMA200",
-          "value": 158.2,
-          "threshold": 147.56,
+          "value": 762.25,
+          "threshold": 702.02,
           "passed": true,
           "note": ""
         },
         {
           "rule": "mo:EMA200_rising_20d_pct",
-          "value": 1.41,
+          "value": 1.75,
           "threshold": "> 0",
           "passed": true,
           "note": ""
         },
         {
           "rule": "mo:RSI",
-          "value": 63.3,
+          "value": 54.4,
           "threshold": "50–72",
           "passed": true,
           "note": ""
         },
         {
           "rule": "mo:ADX",
-          "value": 19.2,
+          "value": 15.1,
           "threshold": ">= 20",
           "passed": false,
           "note": ""
         },
         {
           "rule": "mo:MACD_hist",
-          "value": 2.435,
+          "value": 5.565,
           "threshold": "> 0",
           "passed": true,
           "note": ""
         },
         {
           "rule": "mo:pct_of_52w_high",
-          "value": 95.7,
+          "value": 89.8,
           "threshold": ">= 75",
           "passed": true,
           "note": ""
@@ -1520,59 +1514,59 @@
         },
         {
           "rule": "fund:ROE %",
-          "value": -21.53,
+          "value": 3.83,
           "threshold": ">= 12",
           "passed": false,
           "note": ""
         },
         {
           "rule": "fund:Debt/Equity",
-          "value": 0.07,
+          "value": 0.05,
           "threshold": "<= 1.0",
           "passed": true,
           "note": ""
         },
         {
           "rule": "fund:Revenue growth %",
-          "value": 41.4,
+          "value": 13.3,
           "threshold": ">= 5",
           "passed": true,
           "note": ""
         },
         {
           "rule": "fund:EPS growth %",
-          "value": null,
+          "value": 25.1,
           "threshold": ">= 0",
-          "passed": false,
-          "note": "unavailable"
+          "passed": true,
+          "note": ""
         },
         {
           "rule": "fund:Profit margin %",
-          "value": -24.35,
+          "value": 7.43,
           "threshold": ">= 5",
-          "passed": false,
+          "passed": true,
           "note": ""
         },
         {
           "rule": "fund:P/E",
-          "value": null,
+          "value": 65.99,
           "threshold": "<= 80",
-          "passed": false,
-          "note": "unavailable"
+          "passed": true,
+          "note": ""
         },
         {
           "rule": "setup:entry_trigger",
-          "value": 178.8,
-          "threshold": "above breakout-day high (continuation confirmation)",
+          "value": 789.55,
+          "threshold": "above pullback-day high (bounce confirmation)",
           "passed": true,
           "note": ""
         },
         {
           "rule": "setup:stop",
-          "value": 167.25,
+          "value": 749.55,
           "threshold": "1.5×ATR",
           "passed": true,
-          "note": "6.46% below entry"
+          "note": "5.07% below entry"
         },
         {
           "rule": "setup:reward_risk_t1",
@@ -1583,10 +1577,7 @@
         }
       ],
       "risks": [
-        "Still below the 60-day closing high — major resistance overhead.",
-        "High volatility (ATR 4.4% of price).",
-        "Loss-making company (negative margin/EPS) — score penalised.",
-        "52-week high 183.97 is only 0.45R above entry — T1 faces overhead supply."
+        "Rich valuation: P/E 66 > 60 — less margin for error on bad news."
       ]
     }
   ],
@@ -2374,70 +2365,76 @@
       "rejected_reason": "relative strength 59 < 65"
     },
     {
-      "symbol": "GRAPHITE",
-      "sector": "Capital Goods",
+      "symbol": "URBANCO",
+      "sector": "Consumer Services",
       "as_of": "2026-11-19",
-      "close": 785.25,
-      "setup_type": "Pullback",
+      "close": 176.05,
+      "setup_type": "Breakout",
       "technical_score": 95.7,
-      "rs_percentile": 73.2,
-      "rs_excess_pct": 0.9,
-      "sector_score": 5.0,
+      "rs_percentile": 96.2,
+      "rs_excess_pct": 15.81,
+      "sector_score": 30.0,
       "fundamental_score": 50.0,
       "event_score": 100.0,
-      "confluence_score": 74.0,
-      "penalty": 0.0,
-      "final_score": 73.5,
+      "confluence_score": 97.8,
+      "penalty": -8.0,
+      "final_score": 75.1,
       "action": "WATCH",
-      "breakout_grade": "",
-      "live_status": "",
+      "breakout_grade": "Solid",
+      "live_status": "Held",
       "follow_through": "Partial",
-      "loss_making": false,
+      "loss_making": true,
       "failed_breakout": false,
       "confluence": {
-        "confluence_score": 74.0,
-        "conf_trend": 84.6,
-        "conf_momentum": 80.0,
-        "conf_overlap": 65.2,
-        "conf_volume": 50.0,
+        "confluence_score": 97.8,
+        "conf_trend": 100.0,
+        "conf_momentum": 92.7,
+        "conf_overlap": 98.5,
+        "conf_volume": 100.0,
         "indicators_computed": 403
       },
       "score_breakdown": {
         "technical_pts": 32.5,
-        "relative_strength_pts": 12.4,
+        "relative_strength_pts": 16.4,
         "fundamental_pts": 8.5,
-        "sector_pts": 0.4,
+        "sector_pts": 2.6,
         "event_pts": 8.5,
-        "confluence_pts": 11.1,
-        "weighted": 73.5,
-        "penalty": 0.0,
-        "final": 73.5
+        "confluence_pts": 14.7,
+        "weighted": 83.1,
+        "penalty": -8.0,
+        "final": 75.1
       },
       "fundamentals": {
-        "roe_pct": null,
-        "debt_to_equity": null,
-        "revenue_growth_pct": null,
+        "roe_pct": -21.532999999999998,
+        "debt_to_equity": 0.07150000000000001,
+        "revenue_growth_pct": 41.4,
         "eps_growth_pct": null,
-        "profit_margin_pct": null,
-        "pe": 65.9874,
-        "market_cap_cr": 15341.8694656,
-        "trailing_eps": null,
-        "loss_making": false
+        "profit_margin_pct": -24.349001,
+        "pe": null,
+        "market_cap_cr": 26104.5567488,
+        "trailing_eps": -3.02,
+        "loss_making": true
       },
       "events": {
         "next_earnings": null,
-        "ex_dividend": "2026-07-20"
+        "ex_dividend": null
       },
       "metrics": {
-        "dist_from_ema20_pct": 1.84,
-        "rsi": 54.4,
-        "adx": 15.1,
-        "pct_of_52w_high": 89.8,
+        "breakout_level": 173.9,
+        "extension_pct": 1.24,
+        "volume_ratio": 3.0,
+        "breakout_grade": "Solid",
+        "clears_60d_close_high": false,
+        "rsi": 63.3,
+        "adx": 19.2,
+        "pct_of_52w_high": 95.7,
         "rs_line_new_high": false,
-        "rs_excess_20d_pct": -3.89
+        "rs_excess_20d_pct": 16.35
       },
       "risks": [
-        "Rich valuation: P/E 66 > 60 — less margin for error on bad news."
+        "Still below the 60-day closing high — major resistance overhead.",
+        "High volatility (ATR 4.4% of price).",
+        "Loss-making company (negative margin/EPS) — score penalised."
       ],
       "rejected_reason": "portfolio: max open positions (6) reached"
     },
@@ -3464,7 +3461,7 @@
       "pre_breakout_score": 0.0,
       "pullback_score": 60.0,
       "pct_of_52w_high": 95.7,
-      "status": "SETUP",
+      "status": "portfolio: max open positions (6) reached",
       "rs_percentile": 96.2,
       "sector_score": 30.0,
       "fundamental_score": 50.0,
@@ -3472,7 +3469,7 @@
       "confluence_score": 97.8,
       "penalty": -8.0,
       "final_score": 75.1,
-      "action": "BUY"
+      "action": "WATCH"
     },
     {
       "symbol": "WOCKPHARMA",
@@ -3546,15 +3543,15 @@
       "pre_breakout_score": 75.0,
       "pullback_score": 100.0,
       "pct_of_52w_high": 89.8,
-      "status": "portfolio: max open positions (6) reached",
+      "status": "SETUP",
       "rs_percentile": 73.2,
       "sector_score": 5.0,
-      "fundamental_score": 50.0,
+      "fundamental_score": 75.0,
       "event_score": 100.0,
       "confluence_score": 74.0,
       "penalty": 0.0,
-      "final_score": 73.5,
-      "action": "WATCH"
+      "final_score": 77.8,
+      "action": "BUY"
     },
     {
       "symbol": "LGEINDIA",

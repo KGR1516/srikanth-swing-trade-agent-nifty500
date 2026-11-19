@@ -1,8 +1,8 @@
 # Swing Trade Agent — setups for the session after 2026-11-19
 
-_Generated 2026-11-19 19:23 IST · Universe: Nifty 500 (496 stocks) · Capital ₹500,000_
+_Generated 2026-11-19 23:16 IST · Universe: Nifty 500 (496 stocks) · Capital ₹500,000_
 
-**Morning run 19:22 IST — setups from the 2026-11-19 close, with live status today**
+**Afternoon run 23:15 IST — PROVISIONAL: today's candle is not final until 15:30**
 
 ## Market regime: 🟢 BULLISH (risk × 1)
 
@@ -20,16 +20,7 @@ _Generated 2026-11-19 19:23 IST · Universe: Nifty 500 (496 stocks) · Capital �
 | 3 | **EICHERMOT** | BUY NOW | Breakout | Unconfirmed | 8,058.50 | 8,094.10 | 8,255.95 | 7,770.20 | 4.0% | 8,741.90 (2R) | 9,065.80 (3R) | 9 | ₹2,915 | 89 |
 | 4 | **IDFCFIRSTB** | BUY NOW | Breakout | Unconfirmed | 86.05 | 87.00 | 88.70 | 83.65 | 3.9% | 93.70 (2R) | 97.05 (3R) | 862 | ₹2,888 | 83 |
 | 5 | **ANANDRATHI** | BUY NOW | Pre-Breakout | — | 2,369.60 | 2,413.75 | 2,462.00 | 2,357.90 | 2.3% | 2,525.45 (2R) | 2,581.30 (3R) | 31 | ₹1,731 | 83 |
-| 6 | **URBANCO** | BUY | Breakout | Solid | 176.05 | 178.80 | 182.35 | 167.25 | 6.5% | 201.90 (2R) | 213.45 (3R) | 419 | ₹4,839 | 75 |
-
-### Live status today
-
-- **MINDACORP** — Not triggered — needs ≥ 765.70 (now 753.20)
-- **WOCKPHARMA** — Not triggered — needs ≥ 2,205.55 (now 2,187.00)
-- **EICHERMOT** — Not triggered — needs ≥ 8,094.10 (now 8,058.50)
-- **IDFCFIRSTB** — Not triggered — needs ≥ 87.00 (now 86.05)
-- **ANANDRATHI** — Not triggered — needs ≥ 2,413.75 (now 2,369.60)
-- **URBANCO** — Not triggered — needs ≥ 178.80 (now 176.05)
+| 6 | **GRAPHITE** | BUY | Pullback | — | 785.25 | 789.55 | 805.30 | 749.55 | 5.1% | 869.55 (2R) | 909.55 (3R) | 94 | ₹3,760 | 78 |
 
 **Execution rules:** buy-stop at the entry trigger · skip if the open gaps above the “don't chase” price · cancel if not triggered within 2 sessions · exit if T1 isn't hit within 5 sessions · book part at T1, trail the stop to entry.
 
@@ -45,10 +36,7 @@ _Generated 2026-11-19 19:23 IST · Universe: Nifty 500 (496 stocks) · Capital �
 - **IDFCFIRSTB** — 52-week high 89.61 is only 0.78R above entry — T1 faces overhead supply.
 - **ANANDRATHI** — RSI 70 — short-term overbought.
 - **ANANDRATHI** — Rich valuation: P/E 87 > 60 — less margin for error on bad news.
-- **URBANCO** — Still below the 60-day closing high — major resistance overhead.
-- **URBANCO** — High volatility (ATR 4.4% of price).
-- **URBANCO** — Loss-making company (negative margin/EPS) — score penalised.
-- **URBANCO** — 52-week high 183.97 is only 0.45R above entry — T1 faces overhead supply.
+- **GRAPHITE** — Rich valuation: P/E 66 > 60 — less margin for error on bad news.
 
 ## Watchlist (20)
 
@@ -65,7 +53,7 @@ _Generated 2026-11-19 19:23 IST · Universe: Nifty 500 (496 stocks) · Capital �
 | PNBHOUSING | WATCH | Pre-Breakout | 80 | relative strength 53 < 65 |
 | UNITDSPR | WATCH | Breakout | 79 | relative strength 57 < 65 |
 | CHENNPETRO | WATCH | Pullback | 78 | relative strength 59 < 65 |
-| GRAPHITE | WATCH | Pullback | 74 | portfolio: max open positions (6) reached |
+| URBANCO | WATCH | Breakout | 75 | portfolio: max open positions (6) reached |
 | CPPLUS | WATCH | Pullback | 74 | portfolio: max open positions (6) reached |
 | BEML | WATCH | Pullback | 73 | portfolio: max open positions (6) reached |
 | JSWINFRA | WATCH | Pullback | 73 | relative strength 63 < 65 |
@@ -102,6 +90,6 @@ _Generated 2026-11-19 19:23 IST · Universe: Nifty 500 (496 stocks) · Capital �
 - VEDPOWER: insufficient_history:109<220
 
 ---
-Sources: Yahoo Finance (adjusted daily OHLCV, fundamentals, calendar), NSE bhavcopy 2026-11-19 (close cross-check), 6 clearly illiquid stocks skipped before indicators, pandas-ta-classic indicator confluence
+Sources: Yahoo Finance (adjusted daily OHLCV, fundamentals, calendar), prefetched history + live refresh of 488 liquid stocks at 23:16:32 IST, NSE bhavcopy 2026-11-19 (close cross-check), 6 clearly illiquid stocks skipped before indicators, pandas-ta-classic indicator confluence
 
 > Research output only — not investment advice and not an order. Verify prices, results dates and liquidity before trading; size positions to your own risk tolerance.
