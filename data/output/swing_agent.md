@@ -1,8 +1,8 @@
 # Swing Trade Agent — setups for the session after 2026-11-20
 
-_Generated 2026-11-20 19:05 IST · Universe: Nifty 500 (496 stocks) · Capital ₹500,000_
+_Generated 2026-11-20 22:54 IST · Universe: Nifty 500 (496 stocks) · Capital ₹500,000_
 
-**Morning run 19:04 IST — setups from the 2026-11-20 close, with live status today**
+**Afternoon run 22:53 IST — PROVISIONAL: today's candle is not final until 15:30**
 
 ## Market regime: 🟢 BULLISH (risk × 1)
 
@@ -21,15 +21,6 @@ _Generated 2026-11-20 19:05 IST · Universe: Nifty 500 (496 stocks) · Capital �
 | 4 | **DLF** | BUY NOW | Breakout | Unconfirmed | 785.00 | 793.90 | 809.75 | 765.75 | 3.5% | 850.20 (2R) | 878.35 (3R) | 94 | ₹2,646 | 88 |
 | 5 | **ADANIPOWER** | BUY NOW | Breakout | Unconfirmed | 211.95 | 214.05 | 218.30 | 205.90 | 3.8% | 230.35 (2R) | 238.50 (3R) | 350 | ₹2,852 | 88 |
 | 6 | **POONAWALLA** | BUY NOW | Breakout | Unconfirmed | 518.40 | 523.85 | 534.30 | 496.10 | 5.3% | 579.35 (2R) | 607.10 (3R) | 143 | ₹3,968 | 85 |
-
-### Live status today
-
-- **APOLLOHOSP** — Not triggered — needs ≥ 9,304.55 (now 9,200.00)
-- **CUB** — Not triggered — needs ≥ 251.95 (now 248.80)
-- **WELSPUNLIV** — Not triggered — needs ≥ 275.35 (now 268.78)
-- **DLF** — Not triggered — needs ≥ 793.90 (now 785.00)
-- **ADANIPOWER** — Not triggered — needs ≥ 214.05 (now 211.95)
-- **POONAWALLA** — Not triggered — needs ≥ 523.85 (now 518.40)
 
 **Execution rules:** buy-stop at the entry trigger · skip if the open gaps above the “don't chase” price · cancel if not triggered within 2 sessions · exit if T1 isn't hit within 5 sessions · book part at T1, trail the stop to entry.
 
@@ -95,6 +86,6 @@ _Generated 2026-11-20 19:05 IST · Universe: Nifty 500 (496 stocks) · Capital �
 - VEDPOWER: insufficient_history:110<220
 
 ---
-Sources: Yahoo Finance (adjusted daily OHLCV, fundamentals, calendar), NSE bhavcopy 2026-11-20 (close cross-check), 6 clearly illiquid stocks skipped before indicators, pandas-ta-classic indicator confluence
+Sources: Yahoo Finance (adjusted daily OHLCV, fundamentals, calendar), prefetched history + live refresh of 488 liquid stocks at 22:54:19 IST, NSE bhavcopy 2026-11-20 (close cross-check), 6 clearly illiquid stocks skipped before indicators, pandas-ta-classic indicator confluence
 
 > Research output only — not investment advice and not an order. Verify prices, results dates and liquidity before trading; size positions to your own risk tolerance.
