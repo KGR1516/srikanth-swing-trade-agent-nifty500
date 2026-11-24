@@ -1,8 +1,8 @@
 # Swing Trade Agent — setups for the session after 2026-11-23
 
-_Generated 2026-11-23 20:50 IST · Universe: Nifty 500 (496 stocks) · Capital ₹500,000_
+_Generated 2026-11-24 20:46 IST · Universe: Nifty 500 (496 stocks) · Capital ₹500,000_
 
-**Morning run 20:49 IST — setups from the 2026-11-23 close, with live status today**
+**Morning run 20:45 IST — setups from the 2026-11-23 close, with live status today**
 
 ## Market regime: 🟡 NEUTRAL (risk × 0.5)
 
@@ -25,12 +25,12 @@ _Generated 2026-11-23 20:50 IST · Universe: Nifty 500 (496 stocks) · Capital �
 
 ### Live status today
 
-- **HONASA** — Not triggered — needs ≥ 544.85 (now 539.75)
-- **ASTERDM** — Not triggered — needs ≥ 798.75 (now 790.35)
-- **GESHIP** — Not triggered — needs ≥ 1,555.25 (now 1,538.30)
-- **PERSISTENT** — Not triggered — needs ≥ 6,356.95 (now 6,282.50)
-- **ENGINERSIN** — Not triggered — needs ≥ 305.45 (now 298.40)
-- **JSWINFRA** — Not triggered — needs ≥ 356.25 (now 353.55)
+- **HONASA** — No live data (holiday / feed delay)
+- **ASTERDM** — No live data (holiday / feed delay)
+- **GESHIP** — No live data (holiday / feed delay)
+- **PERSISTENT** — No live data (holiday / feed delay)
+- **ENGINERSIN** — No live data (holiday / feed delay)
+- **JSWINFRA** — No live data (holiday / feed delay)
 
 **Execution rules:** buy-stop at the entry trigger · skip if the open gaps above the “don't chase” price · cancel if not triggered within 2 sessions · exit if T1 isn't hit within 5 sessions · book part at T1, trail the stop to entry.
 
